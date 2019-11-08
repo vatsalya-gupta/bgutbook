@@ -20,3 +20,8 @@ The command line is something that I think will never get too old to be useful. 
 
 So, long story short, you should definitely learn at least the fundamentals of the command line.
 
+## Acknowledgments
+
+* Łukasz Dziedzic, who developed the free "Lato" font ([Latofonts](http://www.latofonts.com)), used for the cover.
+
+The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. This book is written by a commuter for commuters. We spend countless times in stations and on public transport, and even these places can reveal a secret beauty.
