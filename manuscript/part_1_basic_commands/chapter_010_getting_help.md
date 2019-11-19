@@ -23,7 +23,7 @@ First of all, let me teach you some fundamentals TODO of man page driving. You c
 A nice help text at the bottom of the screen lets you know that this it
 
 ``` txt
- Manual page echo(1) line 1/68 51% (press h for help or q to quit)
+Manual page echo(1) line 1/68 51% (press h for help or q to quit)
 ```
 
 Quitting programs can be surprisingly complex at times (ask any `vi` novice user), but `man` exits to the system with a simple `q` for `quit`. Try it, then enter the manual page for `echo` again. Phew! At least we won't be trapped here forever.

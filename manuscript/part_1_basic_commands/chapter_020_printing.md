@@ -22,13 +22,19 @@ Hardly. Quotes are probably one of the worst topics in the whole bash syntax and
 
 For today, before you fall asleep bored by my explanations try these two quick exercises.
 
-E20.01 Print the string "Just a test"
-S20.01 `echo "Just a test"`
+{exercise, id:E2.01}
+? Print the string "Just a test"
+! `echo "Just a test"`
+{/exercise}
 
-E20.02 Print a string without the trailing newline (check the manual page)
-S20.02 The man page says `-n     do not output the trailing newline`, so `echo -n Just a string`
+{exercise, id:E2.02}
+? Print a string without the trailing newline (check the manual page)
+! The man page says `-n     do not output the trailing newline`, so `echo -n Just a string`
+{/exercise}
 
-E20.03 Print the string `"First line\nSecond line"` (mind the quotes). What happens? Can you find a way to convert that `\n` into a newline?
-S20.03 The man page says `-e     enable interpretation of backslash escapes`, so `echo -e "First line\nSecond line"`
+{exercise, id:E2.03}
+? Print the string `"First line\nSecond line"` (mind the quotes). What happens? Can you find a way to convert that `\n` into a newline?
+! The man page says `-e     enable interpretation of backslash escapes`, so `echo -e "First line\nSecond line"`
+{/exercise}
 
 As a final remark, to leave you with some food for thought, what happens if you remove the quotes from the solution of the last exercise? Now go and watch a comedy film, or you will have nightmares.
