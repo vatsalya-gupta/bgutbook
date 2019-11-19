@@ -1,8 +1,7 @@
 # Day 6 - Printing specific lines
 
 {icon: quote-right}
-B> _You've been targeted for termination._
-B> - Terminator (1984)
+B> _You've been targeted for termination._ -- Terminator (1984)
 
 Today I want to introduce you to a friend of mine, its name is `sed`. It's full name is actually "Stream Editor", but few remember it and it doesn't care that much. Actually it answers only when you call it with the nickname. Anyway, it is an incredibly powerful command, but for the moment I can't show you exactly what it can do, as you might not get how useful it will be for your work. We will thus explore just one of the many things it can do, and probably the less important one, which is to print lines.
 

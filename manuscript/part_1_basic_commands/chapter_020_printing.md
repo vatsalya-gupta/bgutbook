@@ -25,12 +25,15 @@ For today, before you fall asleep bored by my explanations, try these two quick 
 
 {exercise, id:E2.01}
 ? Print the string "Just a test"
-! `echo "Just a test"`
+!
+```
+echo "Just a test"
+```
 {/exercise}
 
 {exercise, id:E2.02}
 ? Print a string without the trailing newline (check the manual page)
-! The man page says `-n     do not output the trailing newline`, so `echo -n Just a string`
+! The man page says ```-n     do not output the trailing newline```, so `echo -n Just a string`
 {/exercise}
 
 {exercise, id:E2.03}

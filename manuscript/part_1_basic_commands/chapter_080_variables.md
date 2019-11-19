@@ -1,8 +1,7 @@
 # Day 8 - Variables
 
 {icon: quote-right}
-B> _You're not part ofthis equation._
-B> - Die Hard (1988)
+B> _You're not part ofthis equation._ -- Die Hard (1988)
 
 The Unix terminal provides variables, like many programming languages. Unfortunately, unlike other programming languages, bash does not provide data types, and this is a very important thing to remember. In bash, all variables are untyped, or, if you prefer, are just strings.
 
