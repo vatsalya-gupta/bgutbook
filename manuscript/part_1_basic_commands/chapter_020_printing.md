@@ -1,8 +1,7 @@
 # Day 2 - Printing
 
 {icon: quote-right}
-B> _Let Polly do the printing._
-B> - Jaws (1975)
+B> _Let Polly do the printing._ -- Jaws (1975)
 
 No, forget paper and toner cartridges, we are still working with a keyboard and a screen. In this lesson we will learn arguably the most important part of any programming language or computer system, that is how to print strings on the screen. Yes, you heard me, artificial intelligence, the most useful thing a computer can do is still printing something on the screen. The second thing is obviously moving four ghosts in a labyrinth flooded with beads that you are trying to eat.
 
@@ -20,7 +19,9 @@ Whatever, the command should have printed the string on the screen, just under t
 
 Hardly. Quotes are probably one of the worst topics in the whole bash syntax and generally speaking in the world of Unix scripting. Believe me, you will hate quotes at a certain point of your career, but don't despair. I lived to tell the tale, so you will as well. Just be aware for now, that if you want to wish ill upon an enemy system administrator you can say "May your quotes never work". That is worse than a sentient evil computer that wants to rule the world. I know, I read too much science fiction.
 
-For today, before you fall asleep bored by my explanations try these two quick exercises.
+* * *
+
+For today, before you fall asleep bored by my explanations, try these two quick exercises.
 
 {exercise, id:E2.01}
 ? Print the string "Just a test"
@@ -36,5 +37,7 @@ For today, before you fall asleep bored by my explanations try these two quick e
 ? Print the string `"First line\nSecond line"` (mind the quotes). What happens? Can you find a way to convert that `\n` into a newline?
 ! The man page says `-e     enable interpretation of backslash escapes`, so `echo -e "First line\nSecond line"`
 {/exercise}
+
+* * *
 
 As a final remark, to leave you with some food for thought, what happens if you remove the quotes from the solution of the last exercise? Now go and watch a comedy film, or you will have nightmares.
