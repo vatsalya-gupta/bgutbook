@@ -14,14 +14,20 @@ If you are a programmer, nowadays you probably got in touch with Open Source sof
 
 [^win]: Sure, you can have all these things in your Windows laptop (Windows is not a Unix-like operating system), but I can't recommend it. I mean, you bought a water pistol, and you want to use it with real bullets. Good luck!
 
-That of Unix is a rich world, and this book will not even scratch the surface. but one of the most powerful things Unix systems have is the command line. Yes, in 2019, with AIs constantly processing everything we search on Google, mobile phones with perfect user interfaces, and proper virtual reality around the corner, the good old green-on-black terminal still has something to say. Actually more than something!
+That of Unix is a rich world, and this book will not even scratch the surface. but one of the most powerful things Unix systems have is the command line. Yes, in 2019, with AIs constantly processing everything we search and do online, mobile phones with perfect user interfaces, and proper virtual reality around the corner, the good old green-on-black terminal still has something to say. Actually more than something!
 
-The command line is something that I think will never get too old to be useful. I am happy when the GUI of some program is simple and well designed, but there is simply nothing that can give you more power than the command line.
+The command line is a tool that I think will never get too old to be useful. I am happy when the GUI of some program is simple and well designed, but there is simply nothing that can give you more power than the command line.
 
-So, long story short, you should definitely learn at least the fundamentals of the command line.
+So, long story short, you should definitely learn at least the fundamentals of the command line!
 
 ## Acknowledgments
 
 * Łukasz Dziedzic, who developed the free "Lato" font ([Latofonts](http://www.latofonts.com)), used for the cover.
 
 The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. This book is written by a commuter for commuters. We spend countless times in stations and on public transport, and even these places can reveal a secret beauty.
+
+## Example files
+
+While many of the example files have been created explicitly for this book, some of them have been found online. In particular
+
+* logs.txt TODO: https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs

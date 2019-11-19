@@ -1,5 +1,8 @@
 # Day 3 - Showing the content of a file
 
+B> _So, have a look inside._
+B> - Enemy Mine (1985)
+
 Do you remember when I said that the second most important thing a computer can do is to move four ghosts in a labyrinth flooded with beads that you are trying to eat? I didn't lie, it's true. The third one, however, is to show the content of text files.
 
 Back in the ages when I was a teenager (the 90s, just to be clear) we used to exchange data on floppy disks. Yes I know, it sounds like a time where dinosaurs still walked on earth and men went hunting with flint spears (spoiler alert, these two things never happened during the same age), but it's true. Text files were very important, song lyrics, programming tutorials, jokes, all these things came in text files. And you know what? Now, when I open a web page with some band lyrics and my screen is flooded by advertisements, pop-ups, cookie alerts, and unwanted videos I definitely miss those amazing plain dull simple text files.

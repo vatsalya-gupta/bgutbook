@@ -1,5 +1,8 @@
 # Day 6 - Printing specific lines
 
+B> _You've been targeted for termination._
+B> - Terminator (1984)
+
 Today I want to introduce you to a friend of mine, its name is `sed`. It's full name is actually "Stream Editor", but few remember it and it doesn't care that much. Actually it answers only when you call it with the nickname. Anyway, it is an incredibly powerful command, but for the moment I can't show you exactly what it can do, as you might not get how useful it will be for your work. We will thus explore just one of the many things it can do, and probably the less important one, which is to print lines.
 
 The problem we often have is that of printing a specific line of a text. With `head` and `tail` we learned how to print a certain number of lines starting from the beginning or the end, but what if we want a line somewhere in the middle of the file? One possible solution comes from pipes. If you run
