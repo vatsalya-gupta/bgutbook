@@ -1,5 +1,6 @@
 # Day 9 - Fields
 
+{icon: quote-right}
 B> _In the plus column, though she makes a hell of a cup of coffee._
 B> - Batman Returns (1992)
 

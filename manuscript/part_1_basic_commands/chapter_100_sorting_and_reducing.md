@@ -1,5 +1,6 @@
 # Day 10 - Sorting and reducing
 
+{icon: quote-right}
 B> _But in the Latin alphabet, Jehovah begins with an "I"._
 B> - Indiana Jones and the Last Crusade (1989)
 

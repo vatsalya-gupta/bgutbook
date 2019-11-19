@@ -1,5 +1,6 @@
 # Day 5 - Semicolon, logical AND, pipes
 
+{icon: quote-right}
 B> _All right. Let's just think this thing through logically._
 B> - Back to the Future Part III (1990)
 

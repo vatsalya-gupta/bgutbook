@@ -1,5 +1,6 @@
 # Day 1 - Getting help
 
+{icon: quote-right}
 B> _Help me, Obi-Wan Kenobi. You are my only hope._
 B> - Star Wars (1977)
 

@@ -1,5 +1,6 @@
 # Day 7 - Sequences
 
+{icon: quote-right}
 B> _A coding sequence cannot be revised once it's been established._
 B> - Blade Runner (1982)
 

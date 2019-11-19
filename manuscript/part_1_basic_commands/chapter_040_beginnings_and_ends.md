@@ -1,5 +1,6 @@
 ## Day 4 - Beginnings and ends
 
+{icon: quote-right}
 B> _Come, let's begin. - We ended in F major._
 B> - Amadeus (1984)
 

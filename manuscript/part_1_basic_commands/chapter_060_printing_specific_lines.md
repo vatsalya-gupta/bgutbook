@@ -1,5 +1,6 @@
 # Day 6 - Printing specific lines
 
+{icon: quote-right}
 B> _You've been targeted for termination._
 B> - Terminator (1984)
 

@@ -1,5 +1,6 @@
 # Day 8 - Variables
 
+{icon: quote-right}
 B> _You're not part ofthis equation._
 B> - Die Hard (1988)
 

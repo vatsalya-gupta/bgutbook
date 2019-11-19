@@ -1,5 +1,6 @@
 # Day 3 - Showing the content of a file
 
+{icon: quote-right}
 B> _So, have a look inside._
 B> - Enemy Mine (1985)
 

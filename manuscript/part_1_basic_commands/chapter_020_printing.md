@@ -1,5 +1,6 @@
 # Day 2 - Printing
 
+{icon: quote-right}
 B> _Let Polly do the printing._
 B> - Jaws (1975)
 
