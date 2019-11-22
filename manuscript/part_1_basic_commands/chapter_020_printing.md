@@ -23,23 +23,17 @@ Hardly. Quotes are probably one of the worst topics in the whole bash syntax and
 
 For today, before you fall asleep bored by my explanations, try these two quick exercises.
 
-{exercise, id:E2.01}
-? Print the string "Just a test"
-!
-```
-echo "Just a test"
-```
-{/exercise}
+**Exercise 2.01**
+Print the string "Just a test"
+[Solution]{#solution_2.01}
 
-{exercise, id:E2.02}
-? Print a string without the trailing newline (check the manual page)
-! The man page says ```-n     do not output the trailing newline```, so `echo -n Just a string`
-{/exercise}
+**Exercise 2.02**
+Print a string without the trailing newline (check the manual page)
+[Solution]{#solution_2.02}
 
-{exercise, id:E2.03}
-? Print the string `"First line\nSecond line"` (mind the quotes). What happens? Can you find a way to convert that `\n` into a newline?
-! The man page says `-e     enable interpretation of backslash escapes`, so `echo -e "First line\nSecond line"`
-{/exercise}
+**Exercise 2.03**
+Print the string `"First line\nSecond line"` (mind the quotes). What happens? Can you find a way to convert that `\n` into a newline?
+[Solution]{#solution_2.03}
 
 * * *
 
