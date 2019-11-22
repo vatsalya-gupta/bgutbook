@@ -23,17 +23,29 @@ Hardly. Quotes are probably one of the worst topics in the whole bash syntax and
 
 For today, before you fall asleep bored by my explanations, try these two quick exercises.
 
+{#exercise_2_01}
 ### Exercise 2.01
 Print the string "Just a test"
-[Solution](#solution_2_01)
 
+[Go to solution](#solution_2_01)
+
+{#exercise_2_02}
 ### Exercise 2.02
 Print a string without the trailing newline (check the manual page)
-[Solution](#solution_2_02)
 
+[Go to solution](#solution_2_02)
+
+{#exercise_2_03}
 ### Exercise 2.03
-Print the string `"First line\nSecond line"` (mind the quotes). What happens? Can you find a way to convert that `\n` into a newline?
-[Solution](#solution_2_03)
+Run
+
+```
+$ echo "First line\nSecond line"
+```
+
+What happens? Can you find a way to convert that `\n` into a newline?
+
+[Go to solution](#solution_2_03)
 
 * * *
 
