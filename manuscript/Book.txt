@@ -12,3 +12,5 @@ part_1_basic_commands/chapter_070_sequences.md
 part_1_basic_commands/chapter_080_variables.md
 part_1_basic_commands/chapter_090_fields.md
 part_1_basic_commands/chapter_100_sorting_and_reducing.md
+part_999_solutions_to_exercises/chapter_000_part.md
+part_999_solutions_to_exercises/chapter_001_solutions.md
