@@ -5,7 +5,7 @@ B> _Let Polly do the printing._ -- Jaws (1975)
 
 No, forget paper and toner cartridges, we are still working with a keyboard and a screen. In this lesson we will learn arguably the most important part of any programming language or computer system, that is how to print strings on the screen. Yes, you heard me, artificial intelligence, the most useful thing a computer can do is still printing something on the screen. The second thing is obviously moving four ghosts in a labyrinth flooded with beads that you are trying to eat.
 
-Jokes aside (just for this sentence, however), printing strings on the screen is very important, not only because it is the simplest and occasionally the better way to debug programs, but also because it provides a way to give a feedback to the user. And nowadays, with cloud computing and global networks, it's still extremely common for programmers and system administrators to interact with a text terminal. I personally believe that for these categories of computer users text terminals will never be outclassed by graphical user interfaces.
+Jokes aside (just for this paragraph, however), printing strings on the screen is very important, not only because it is the simplest and occasionally the better way to debug programs, but also because it provides a way to give a feedback to the user. And nowadays, with cloud computing and global networks, it's still extremely common for programmers and system administrators to interact with a text terminal. I personally believe that for these categories of computer users text terminals will never be outclassed by graphical user interfaces.
 
 OK, jokes can come back from the naughty step. Let's stop rambling and finally print a string.
 
@@ -13,9 +13,21 @@ OK, jokes can come back from the naughty step. Let's stop rambling and finally p
 $ echo <string>
 ```
 
-Well, if you typed exactly `echo <string>` you probably got an error, because you should replace `<string>` with something that does not include nasty characters like `<` and `>`. Maybe `echo Hello, world!`. Yes, I know this is plagiarism.
+Well, if you typed exactly `echo <string>` you probably got an error, because you should replace `<string>` with something that does not include nasty characters like `<` and `>`. Maybe try
 
-Whatever, the command should have printed the string on the screen, just under the command line. Maybe you noticed that you didn't need to include quotes, so why don't you try to do it? Run `echo "hello, world!"` and see what happens. The same? Yes, you are right. So, are quotes useless in bash?
+``` sh
+echo Hello, world!
+```
+
+Yes, I know this is plagiarism.
+
+Whatever, the command should have printed the string on the screen, just under the command line. Maybe you noticed that you didn't need to include quotes, so why don't you try to do it? Run
+
+``` sh
+echo "hello, world!"
+```
+
+and see what happens. The same? Yes, you are right. So, are quotes useless in bash?
 
 Hardly. Quotes are probably one of the worst topics in the whole bash syntax and generally speaking in the world of Unix scripting. Believe me, you will hate quotes at a certain point of your career, but don't despair. I lived to tell the tale, so you will as well. Just be aware for now, that if you want to wish ill upon an enemy system administrator you can say "May your quotes never work". That is worse than a sentient evil computer that wants to rule the world. I know, I read too much science fiction.
 

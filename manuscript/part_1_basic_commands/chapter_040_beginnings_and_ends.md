@@ -1,7 +1,10 @@
 # Day 4 - Beginnings and ends
 
-{icon: quote-right}
-B> _Come, let's begin. We ended in F major._ -- Amadeus (1984)
+{blurb, icon: quote-right}
+_Come, let's begin._
+_ We ended in F major._
+-- Amadeus (1984)
+{/blurb}
 
 Many times people don't read long messages. You should be careful when you send emails, for example. If they are too long people tend to read the beginning and then skip the central part and read the end. That is, if the core of the message was the final result of your 20 years long research on time travel which shows how to build a time machine out of a dishwasher, it is lost. Gone. Sorry, you should have been more concise.
 
