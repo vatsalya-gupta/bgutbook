@@ -20,3 +20,14 @@ For the time being, I will provide instructions to run a Linux machine in a Dock
 
 (Despite the mocking tone, I'm really sorry I can't provide instructions for every case!)
 
+# The prompt
+
+The command line always prints a fixed string in front of each line when waiting for input. This is aptly called _prompt_. The prompt is highly customisable, as it is an invaluable source of information to have at a glance TODO. My prompt, for example, typically contains the full path of the directory I'm in at the moment, so that I have a clear idea of my position at any time. Since the prompt changes from system to system, and from user to user, it is custom to represent it with a dollar sign `$`. So this
+
+```
+$ command --option value --another-option another-value
+```
+
+means that you are supposed to type the string from `command`, as the `$` is already there  in some form on your terminal.
+
+If you fancy some historical information, the dollar sign was apparently first introduced in Version 7 Unix, released in 1979 by Bell Labs, as that was the first version to be shipped with the Bourne shell. So much for long-lasting choices!

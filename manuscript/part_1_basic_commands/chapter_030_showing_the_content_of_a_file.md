@@ -12,7 +12,7 @@ OK, enough riding the train of nostalgia. My point is that these days text files
 If you followed the instructions in the TODO chapter, you should have the example files in your current directory. One of these files is `examples.txt`, and we will use it throughout the next lessons to test some commands. 
 
 ``` sh
-cat examples.txt
+$ cat examples.txt
 ```
 
 You should have been glorified by the content of the `examples.txt` file, and you are probably wondering why things so unrelated with each other are listed together in a text file. Trust me, I'm not completely crazy yet, these things will come in handy.

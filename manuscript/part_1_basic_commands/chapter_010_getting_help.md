@@ -8,13 +8,13 @@ The most important part of a software is the documentation. Sadly, often our sof
 Welcome to the Unix manual pages, or "man pages" for short. Whenever you need help on a command you can run
 
 ``` sh
-man <command>
+$ man <command>
 ```
 
 and enter a text-only (but very powerful, mind it) help system. To learn how to navigate the system let's get help on a rather simple command that we will learn shortly, `echo`.
 
 ``` sh
-man echo
+$ man echo
 ```
 
 First of all, let me teach you some fundamentals TODO of man page driving. You can move through the documentation with your arrow keys, down and up, and with the page down and page up keys to quickly scroll the whole page. Please note that, since manual pages are read-only, there is no cursor, just a current line, which is the topmost one.

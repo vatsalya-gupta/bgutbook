@@ -10,7 +10,7 @@ While this might be a bad habit people have, reading the initial and the final p
 Well, Unix provides two nice commands to perform those actions, namely `head` and `tail`. You should be able to tell which is which from the name, which is a very nice thing their authors did for us. When you run
 
 ``` sh
-head <file>
+$ head <file>
 ```
 
 the system will show you by default the first 10 lines of the file. You can try this and the following examples on the `slices.txt` file provided in the examples repository. That file is just a sequence of numbered lines, from 1 to 20, so that you can easily check if what you did is correct. So `head slices.txt` should shows you lines 1-10. Conversely, if you run `tail slices.txt` you will get lines 11-20, that is the last 10 ones of the file.
@@ -21,16 +21,28 @@ Please note an important thing about the Unix command line: switches and their v
 
 There are some exercises that I can leave to you about `head` and `tail`. All exercises can be performed on the `slices.txt` example file, to get an immediate feedback from the numbered lines, but if you feel confident you can use other files as well.
 
-E40.01 Show the first 3 entries of `slices.txt`
-S40.01 `head -n3 slices.txt`
+{#exercise_4_01}
+### Exercise 4.01
+Show the first 3 entries of `slices.txt`
 
-E40.02 Show the last 3 entries of `slices.txt`
-S40.02 `tail -n3 slices.txt`
+[Go to solution](#solution_4_01)
 
-E40.02 Show the content of `slices.txt` skipping the last 3 lines
-S40.02 `head -n -3 slices.txt`
+{#exercise_4_02}
+### Exercise 4.02
+Show the last 3 entries of `slices.txt`
 
-E40.02 Show the content of `slices.txt` starting from line 3 (skipping the first 2 lines)
-S40.02 `tail -n +3 slices.txt`
+[Go to solution](#solution_4_02)
+
+{#exercise_4_03}
+### Exercise 4.03
+Show the content of `slices.txt` skipping the last 3 lines
+
+[Go to solution](#solution_4_03)
+
+{#exercise_4_04}
+### Exercise 4.04
+Show the content of `slices.txt` starting from line 3 (that is, skipping the first 2 lines)
+
+[Go to solution](#solution_4_04)
 
 That's all for today. Was it complex? Was it boring? Well, I'm sorry but I can't hear your answer, I wrote this book some time ago. At any rate, if you think we are going to slowly you can go on freely, the daily frequency is just a suggestion. For today, I also suggest a good cup of tea and maybe some biscuits. Next stop, some plumbing: one of the most important things you can learn about Unix.

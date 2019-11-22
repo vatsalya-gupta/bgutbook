@@ -10,7 +10,7 @@ Jokes aside (just for this sentence, however), printing strings on the screen is
 OK, jokes can come back from the naughty step. Let's stop rambling and finally print a string.
 
 ``` sh
-echo <string>
+$ echo <string>
 ```
 
 Well, if you typed exactly `echo <string>` you probably got an error, because you should replace `<string>` with something that does not include nasty characters like `<` and `>`. Maybe `echo Hello, world!`. Yes, I know this is plagiarism.
@@ -39,7 +39,7 @@ Print a string without the trailing newline (check the manual page)
 ### Exercise 2.03
 Run
 
-```
+``` sh
 $ echo "First line\nSecond line"
 ```
 
