@@ -1,7 +1,7 @@
 # Day 3 - Showing the content of a file
 
 {blurb, icon: quote-right}
-- _So, have a look inside._
+-- _So, have a look inside._
 Enemy Mine (1985)
 {/blurb}
 
