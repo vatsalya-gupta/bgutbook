@@ -1,7 +1,9 @@
 # Day 11 - Regular expressions - Single characters
 
-{icon: quote-right}
-B> _You know, you got to keep regular if you want to be happy._ -- The Shining (1980)
+{blurb, icon: quote-right}
+_You know, you got to keep regular if you want to be happy._
+-- The Shining (1980)
+{/blurb}
 
 TODO TODO This doesn't make sense. Well, we made it in one piece. You survived 10 lessons and you are still alive, I hope. We'll see how you are at the end of this lesson. Jokes aside, regular expressions are too broad a subject to be swallowed in a single gulp, and I don't want to choke readers, so in this and the following TODO lessons we will discuss them.
 

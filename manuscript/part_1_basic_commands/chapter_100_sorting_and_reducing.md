@@ -1,7 +1,9 @@
 # Day 10 - Sorting and reducing
 
-{icon: quote-right}
-B> _But in the Latin alphabet, Jehovah begins with an "I"._ -- Indiana Jones and the Last Crusade (1989)
+{blurb, icon: quote-right}
+_But in the Latin alphabet, Jehovah begins with an "I"._
+-- Indiana Jones and the Last Crusade (1989)
+{/blurb}
 
 Sorting data is paramount in so many cases. We sort data to ease the visual browsing, to pick the top entries according to some quantity, or to spot duplicates. Needless to say, Unix provides a specific tool for sorting, which is unsurprisingly called `sort`.
 

@@ -1,7 +1,9 @@
 # Day 3 - Showing the content of a file
 
-{icon: quote-right}
-B> _So, have a look inside._ -- Enemy Mine (1985)
+{blurb, icon: quote-right}
+- _So, have a look inside._
+Enemy Mine (1985)
+{/blurb}
 
 Do you remember when I said that the second most important thing a computer can do is to move four ghosts in a labyrinth flooded with beads that you are trying to eat? I didn't lie, it's true. The third one, however, is to show the content of text files.
 

@@ -1,7 +1,9 @@
 # Day 12 - Regular expressions - Classes and anchors
 
-{icon: quote-right}
-B> _I sat next to you in Mrs. Walsh's English class!_ -- Groundhog Day (1993)
+{blurb, icon: quote-right}
+_I sat next to you in Mrs. Walsh's English class!_
+-- Groundhog Day (1993)
+{/blurb}
 
 TODO INTRO
 You were so amazed by the power of regular expressions that you decided to come back and proceed with your education! What did you say? I see your boss forced you to learn regular expressions but your real dream is to be an action films star. 

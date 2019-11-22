@@ -1,7 +1,9 @@
 # Day 7 - Sequences
 
-{icon: quote-right}
-B> _A coding sequence cannot be revised once it's been established._ -- Blade Runner (1982)
+{blurb, icon: quote-right}
+_A coding sequence cannot be revised once it's been established._
+-- Blade Runner (1982)
+{/blurb}
 
 Today we will relax a bit, lately we have been doing a lot, so it's time to learn something easy and straightforward. So, we will discuss distributed consensus in a network system. No, I'm just joking, that is actually far from being simple. OK, let's pick another topic: what do you think about sequences? I find them extremely useful, for example when you need to rename files and you want to give them a proper order.
 

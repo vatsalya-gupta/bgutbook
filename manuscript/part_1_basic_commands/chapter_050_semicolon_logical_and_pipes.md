@@ -1,7 +1,9 @@
 # Day 5 - Semicolon, logical AND, pipes
 
-{icon: quote-right}
-B> _All right. Let's just think this thing through logically._ -- Back to the Future Part III (1990)
+{blurb, icon: quote-right}
+_All right. Let's just think this thing through logically._
+-- Back to the Future Part III (1990)
+{/blurb}
 
 So far it looks like bash and Unix are not using those nasty strange symbols many other programming languages or systems use. Well, that's good, isn't it? Yes, but it's also tragically untrue. In this lesson we will meet some of the fancy hieroglyphs that Unix uses to express complex behaviour, so if you are still ruminating on that class of ancient Babylonian language that you missed at the university, be happy. You will soon catch up.
 

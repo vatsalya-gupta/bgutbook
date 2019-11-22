@@ -1,7 +1,9 @@
 # Day 2 - Printing
 
-{icon: quote-right}
-B> _Let Polly do the printing._ -- Jaws (1975)
+{blurb, icon: quote-right}
+_Let Polly do the printing._
+-- Jaws (1975)
+{/blurb}
 
 No, forget paper and toner cartridges, we are still working with a keyboard and a screen. In this lesson we will learn arguably the most important part of any programming language or computer system, that is how to print strings on the screen. Yes, you heard me, artificial intelligence, the most useful thing a computer can do is still printing something on the screen. The second thing is obviously moving four ghosts in a labyrinth flooded with beads that you are trying to eat.
 

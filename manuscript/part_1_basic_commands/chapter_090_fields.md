@@ -1,7 +1,9 @@
 # Day 9 - Fields
 
-{icon: quote-right}
-B> _In the plus column, though she makes a hell of a cup of coffee._ -- Batman Returns (1992)
+{blurb, icon: quote-right}
+_In the plus column, though she makes a hell of a cup of coffee._
+-- Batman Returns (1992)
+{/blurb}
 
 Data is often structured, and many times a good way to split data is to use fields separated by a specific character. This is true for Comma-Separated Values files (CSV), but it is also true for other types of data. For example, the words in a sentence are separated by spaces, the numbers in an IP address are separated by dots (`192.168.0.1`), and hours, minutes, and seconds in a time string can be separated by colons (`08:41:12`).
 

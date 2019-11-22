@@ -1,7 +1,9 @@
 # Day 1 - Getting help
 
-{icon: quote-right}
-B> _Help me, Obi-Wan Kenobi. You are my only hope._ -- Star Wars (1977)
+{blurb, icon: quote-right}
+_Help me, Obi-Wan Kenobi. You are my only hope._
+-- Star Wars (1977)
+{/blurb}
 
 The most important part of a software is the documentation. Sadly, often our software doesn't have good documentation, as "the fun" is in the code. We mostly enjoy developing a program that does something, not writing boring text. Fortunately for us, the Unix system and the people working in that environment have a great culture of documentation, and so the first thing you have to learn is how to find and read help on the commands you will learn.
 
