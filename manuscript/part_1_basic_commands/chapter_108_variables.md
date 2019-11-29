@@ -43,7 +43,7 @@ You can use variables anywhere in bash, as they are replaced before commands get
 $ x=5; sed -n ${x}p slices.txt
 ```
 
-Arguably not the easiest syntax to read, but it is you who signed TODO for the course "Ancient spells and mystical rituals", after all. Wait a minute, what do you mean you just wanted to be a programmer? Where is the difference?
+Arguably not the easiest syntax to read, but it is you who signed up for the course "Ancient spells and mystical rituals", after all. Wait a minute, what do you mean you just wanted to be a programmer? What is the difference?
 
 After variables, command substitution is one of the features you will use the most if you get into bash scripting. Command substitution simply means that you assign to a variable the full output of a command, and this is used often because it allows you to manipulate that output, to loop over its parts, and in general to use it creatively.
 
@@ -59,4 +59,4 @@ Please note that in this case the variable `x` gets the value of the string `"1 
 
 Cool, now enjoy the rest of the day, we will soon learn how to transform a pumpkin into a coach, and mice into servants, just remember that at midnight everything goes back to text files.
 
-Suggested film for the evening: TODO
+Suggested film for the evening: A Beautiful Mind (2001)

@@ -8,17 +8,25 @@ Many examples and exercises in the book use text files that are available on Git
 git clone TODO
 ```
 
-If you don't know how to use Git you can find a zipped version of the repository at TODO
+If you don't know how to use Git you can find a 5 minutes intro at TODO, or you can download a zipped version of the repository at TODO.
 
 ## Linux users
 
-If you are a Linux user you are basically already set up. The only thing you need to do is to download the test files and make sure that you run examples and exerices inside the cloned directory.
+If you are a Linux user you are basically already set up. The only thing you need to do is to download the test files and make sure that you run examples and exercises inside the cloned directory.
 
-Extract the archive in a directory of choice and reach it from your terminal. If you are using a graphical environment like Gnome or KDE you can usually find a "Open terminal here" command in the file browser. Otherwise you can just fire up a terminal (Konsole for KDE, GNOME terminal for GNOME, or any other terminal emulator) and move to that directory with the command `cd path/of/the/directory`. We will discuss this in depth in the book, as the file system is one of the things we will learn to use, but for the time being just try to get there. Once you are there running the command `ls` should show you a list of the files. Congrats! You are ready to go!
+Extract the archive in a directory of choice and reach it from your terminal. If you are using a graphical environment like Gnome or KDE you can usually find a "Open terminal here" command in the file browser. Otherwise you can just fire up a terminal (Konsole for KDE, GNOME terminal for GNOME, or any other terminal emulator) and move to that directory with the command `cd path/of/the/directory`. Once you are there running the command `ls` should show you a list of the files. We will discuss this command in depth in the book, as the file system is one of the things we will learn to use, but for the time being just try to get there.
+
+Congrats! You are ready to go!
 
 ## Mac OS users / Windows users
 
-For several reasons, I will cover only Linux in the rest of the book, at least for the initial versions. So if you are using Mac OS X or Windows, you will have to run Linux in a Docker container. Refer to the [Docker documentation](https://docs.docker.com/install/) to install it.
+I will cover only Linux in this book, at least for the initial versions.
+
+Linux is the operating system used in the vast majority of cloud solutions, and is the de facto most widespread Unix on servers, and this is a good reason to cover it. 
+
+I'm using Linux on my personal computers as well, but the majority of programmers use a Mac or a Windows machine. The main reason for not covering Mac OS is that its default terminal is not 100% compatible with the Linux counterparts (as Mac doesn't use the GNU utilities). I don't have a Mac and even if I could cover all the different versions of the utilities, I think this would be daunting for beginners. The main reason for not covering Windows is that it is not even a Unix. I know that recent versions include some sort of Linux layer, but again I don't have time and interest in those systems.
+
+So if you are using Mac OS X or Windows, you will have to run Linux in a Docker container. Refer to the [Docker documentation](https://docs.docker.com/install/) to install it.
 
 Open a terminal in the folder where you cloned the example files or unzipped the archive and run Docker with the following command line
 
@@ -34,3 +42,4 @@ root@e9edf6b15579:/#
 
 At this point run the command `cd /opt/utpbook_files` that will go to the directory where you can find the example files. Once there, if you run `ls` you should see a list of the files.
 
+Sorry for the extra work. You are ready to go!

@@ -9,7 +9,7 @@ Some time ago, I needed to review around 1000 files to check if IP numbers were 
 
 Searching is one of the more frequent activities of computers, algorithms, and also programmers. You search a given variable in a text, you want to find all the occurrences of a name in a book, you want to extract all the timestamps in a log file with a specific day and hour. These are just some examples of how searching can be used in your daily life (as a programmer or not).
 
-Regular expressions are the most powerful tool you can learn when it comes to searching (and replacing) text. They are strings, with a specific syntax, that are used to search other strings. They unfortunately have a reputation of being incredibly complicated, and I hope I will TODO debunk this myth. You can definitely come up with complex regular expressions, and sometimes it can take you a while to figure out how to express a specific pattern, but you will see that they are definitely accessible.
+Regular expressions are the most powerful tool you can learn when it comes to searching (and replacing) text. They are strings, with a specific syntax, that are used to search other strings. They unfortunately have a reputation of being incredibly complicated, and I hope I will succeed in debunking this myth. You can definitely come up with complex regular expressions, and sometimes it can take you a while to figure out how to express a specific pattern, but you will see that they are definitely accessible.
 
 Did I manage to instill hope you? Yes? Good, because this chapter will be incredibly difficult. Just kidding!
 
@@ -63,9 +63,22 @@ This is what the symbol `.` does in a regular expression. It doesn't mean a full
 
 As you can see, then, regular expressions are simple strings, but they can contain either normal characters (mostly letters of the alphabet, both lowercase and uppercase, and numbers) and special ones. So far we learned about only one of the special characters, that is `.`, commonly called "dot" in this context.
 
-How do we match a proper dot in the string? Since regular expressions assign a special meaning to some characters, when you want to use those characters for their original value you have to escape them TODO fix the examples file. To escape a special character you have to use a backslash, so 
+How do we match a proper dot in the string? Since regular expressions assign a special meaning to some characters, when you want to use those characters for their original value you have to escape them with a `\` (backslash). So, while
 
-TODO example
+``` sh
+$ grep -E "1.1" examples.txt 
+Police 101
+HTTP/1.1
+```
+
+matches two characters "1" separated by any single character, the regular expression
+
+``` sh
+$ grep -E "1\.1" examples.txt 
+HTTP/1.1
+```
+
+matches only those separated by a literal dot. Pay attention that the dot can be a punctuation mark, a decimal point, or have any other meaning. Regular expressions don't know anythign about the text that you are parsing, they just consider pure characters.
 
 * * *
 

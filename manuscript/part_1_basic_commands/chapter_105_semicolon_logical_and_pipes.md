@@ -19,7 +19,7 @@ As you can see bash runs both in sequence, so `;` clearly stands for a sort of "
 $ cat nofile.txt; echo "Second string"
 ```
 
-Well, the output of this double command is an error message from `cat` (which mercilessly sends us to the naughty step TODO), followed by the output of the `echo` command. So, the semicolon is executing both commands whatever the result of them.
+Well, the output of this double command is an error message from `cat` (which mercilessly sends us to the naughty step), followed by the output of the `echo` command. So, the semicolon is executing both commands whatever the result of them.
 
 It is however often useful to chain commands in a different way, where a failing command interrupts the execution. For example you might want to find all files with a certain name and create a log file with some statistics, but you don't want to run this last step if there are no files. For the time being let's see what the operator `&&` does to the previous two commands
 

@@ -11,7 +11,7 @@ Back in the ages when I was a teenager (the 90s, just to be clear) we used to ex
 
 OK, enough riding the train of nostalgia. My point is that these days text files are... still one of the most important things in the world of computer science! Let's consider this: every Web page and every computer program are, at their source, text files. That's it, easily 80% of what is travelling on data networks these days is still a text file. So, let's see the content of a text file, for once without firing up a text editor.
 
-If you followed the instructions in the TODO chapter, you should have the example files in your current directory. One of these files is `examples.txt`, and we will use it throughout the next lessons to test some commands. 
+If you followed the instructions in the setup section, you should have the example files in your current directory. One of these files is `examples.txt`, and we will use it throughout the next lessons to test some commands. 
 
 ``` sh
 $ cat examples.txt

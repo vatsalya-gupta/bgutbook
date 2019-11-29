@@ -19,7 +19,7 @@ and enter a text-only (but very powerful, mind it) help system. To learn how to 
 $ man echo
 ```
 
-First of all, let me teach you some fundamentals TODO of man page driving. You can move through the documentation with your arrow keys, down and up, and with the page down and page up keys to quickly scroll the whole page. Please note that, since manual pages are read-only, there is no cursor, just a current line, which is the topmost one.
+First of all, let me teach you some of the basic fundamentals of man page driving. You can move through the documentation with your arrow keys, down and up, and with the page down and page up keys to quickly scroll the whole page. Please note that, since manual pages are read-only, there is no cursor, just a current line, which is the topmost one.
 
 A nice help text at the bottom of the screen lets you know that this it
 
@@ -35,7 +35,7 @@ If you press `h`, then, the screen changes and shows the meta-help, which is the
 
 There is one important action that is worth learning now, namely searching for strings. Manual pages can be very long, and sometimes very boring, endlessly discussing details that are apparently irrelevant, while you absolutely need _that_ switch now (most often because your system is crumbling to pieces, users are calling infuriated, but you still want to have the list of running processes ordered by CPU usage, because it's neat).
 
-So, to seach for a string in a manual page you tap `/` (note the bottom line waiting for your input) and type the string that you are looking for. Try `escape`, remember to hit `ENTER` after you typed the word. Well, you should have been gratified by the TODO highlighting of the searched words, which is a great visual help. You can now move forward through the results hitting `n` (`n`ext), and backwards hitting `N` (`N`ot the next one, the previous one).
+So, to seach for a string in a manual page you tap `/` (note the bottom line waiting for your input) and type the string that you are looking for. Try `escape`, remember to hit `ENTER` after you typed the word. Well, you should have been gratified by the highlighting of the searched words, which is a great visual help. You can now move forward through the results hitting `n` (`n`ext), and backwards hitting `N` (`N`ot the next one, the previous one).
 
 * * *
 
