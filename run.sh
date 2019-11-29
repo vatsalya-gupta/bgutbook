@@ -2,7 +2,7 @@
 
 source_dir="source"
 dest_dir="manuscript"
-solutions_path="${dest_dir}/part_999_solutions_to_exercises"
+solutions_path="${dest_dir}/part_900_solutions_to_exercises"
 
 source_ext="\.text\.md"
 dest_ext=".md"
