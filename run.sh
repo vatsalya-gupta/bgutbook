@@ -79,4 +79,4 @@ for source_file in ${source_files}; do
     tail -n+${exercises_insertion_line} ${source_file} | tail -n+2 >> ${dest_file}
 done
 
-find ${dest_dir} -type f -iname "*.md" | sort > ${dest_dir}/Book.txt
+find ${dest_dir} -type f -iname "*.md" -printf "%P\n" | sort > ${dest_dir}/Book.txt
