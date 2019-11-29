@@ -41,19 +41,19 @@ For today, before you fall asleep bored by my explanations, try these quick exer
 
 
 {#exercise_2_01}
-### Exercise 2.01
+#### Exercise 2.01
 Print the string "Just a test"
 
 [Go to solution](#solution_2_01)
 
 {#exercise_2_02}
-### Exercise 2.02
+#### Exercise 2.02
 Print a string without the trailing newline (check the manual page)
 
 [Go to solution](#solution_2_02)
 
 {#exercise_2_03}
-### Exercise 2.03
+#### Exercise 2.03
 Run
 
 ``` sh

@@ -44,31 +44,31 @@ Remember that a class, that is the whole block between square brackets, brackets
 
 
 {#exercise_12_07}
-### Exercise 12.07
+#### Exercise 12.07
 Match any line of examples.txt containing a digit
 
 [Go to solution](#solution_12_07)
 
 {#exercise_12_08}
-### Exercise 12.08
+#### Exercise 12.08
 Match any line of examples.txt containing a lowercase "a" followed by any letter (that is "aa", "ab", "ac", and so on)
 
 [Go to solution](#solution_12_08)
 
 {#exercise_12_09}
-### Exercise 12.09
+#### Exercise 12.09
 Match any line of examples.txt containing an upper case letter followed by a digit
 
 [Go to solution](#solution_12_09)
 
 {#exercise_12_10}
-### Exercise 12.10
+#### Exercise 12.10
 Match any line of examples.txt containing a dash
 
 [Go to solution](#solution_12_10)
 
 {#exercise_12_11}
-### Exercise 12.11
+#### Exercise 12.11
 Match any line of examples.txt containing a left square bracket "["
 
 [Go to solution](#solution_12_11)

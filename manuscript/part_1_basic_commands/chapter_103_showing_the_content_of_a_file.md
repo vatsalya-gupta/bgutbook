@@ -31,13 +31,13 @@ Printing the content of a file is pretty straightforward, but there are a couple
 
 
 {#exercise_3_01}
-### Exercise 3.01
+#### Exercise 3.01
 Print the content of the file `examples.txt` numbering lines.
 
 [Go to solution](#solution_3_01)
 
 {#exercise_3_02}
-### Exercise 3.02
+#### Exercise 3.02
 Chech if the file `examples.txt` contains spaces at the end of any line.
 
 [Go to solution](#solution_3_02)

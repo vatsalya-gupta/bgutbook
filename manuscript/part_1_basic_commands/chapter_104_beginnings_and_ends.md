@@ -30,25 +30,25 @@ There are some exercises that I can leave to you about `head` and `tail`. All ex
 
 
 {#exercise_4_01}
-### Exercise 4.01
+#### Exercise 4.01
 Show the first 3 entries of `slices.txt`
 
 [Go to solution](#solution_4_01)
 
 {#exercise_4_02}
-### Exercise 4.02
+#### Exercise 4.02
 Show the last 3 entries of `slices.txt`
 
 [Go to solution](#solution_4_02)
 
 {#exercise_4_03}
-### Exercise 4.03
+#### Exercise 4.03
 Show the content of `slices.txt` skipping the last 3 lines
 
 [Go to solution](#solution_4_03)
 
 {#exercise_4_04}
-### Exercise 4.04
+#### Exercise 4.04
 Show the content of `slices.txt` starting from line 3 (that is, skipping the first 2 lines)
 
 [Go to solution](#solution_4_04)

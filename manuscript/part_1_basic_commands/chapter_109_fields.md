@@ -35,13 +35,13 @@ Time for some exercises! At this point we have a pretty good amount of tools in 
 
 
 {#exercise_9_01}
-### Exercise 9.01
+#### Exercise 9.01
 Print fields 1,6,7, and 8 of the file `simple.log`
 
 [Go to solution](#solution_9_01)
 
 {#exercise_9_02}
-### Exercise 9.02
+#### Exercise 9.02
 Extract the time of each request as HH:MM:SS
 
 [Go to solution](#solution_9_02)

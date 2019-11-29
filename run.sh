@@ -59,20 +59,22 @@ for source_file in ${source_files}; do
         solution_end_line=$(cat ${exercises_file} | nl -ba -nln -s"|" | grep -E "\{EXERCISE END ${exercise_number}\}" | cut -d "|" -f 1 | sed -r s," *",,g)
 
         echo "{#exercise_${exercise_label}}" >> ${dest_file}
-        echo "### Exercise ${exercise}" >> ${dest_file}
+        echo "#### Exercise ${exercise}" >> ${dest_file}
         sed -n ${exercise_start_line},${exercise_end_line}p ${exercises_file} | grep -Ev "^\{EXERCISE" >> ${dest_file}
         echo >> ${dest_file}
         echo "[Go to solution](#solution_${exercise_label})" >> ${dest_file}
         echo >> ${dest_file}
 
         echo "{#solution_${exercise_label}}" >> ${solutions_file}
-        echo "### Exercise ${exercise}" >> ${solutions_file}
+        echo "#### Exercise ${exercise}" >> ${solutions_file}
         sed -n ${exercise_start_line},${exercise_end_line}p ${exercises_file} | grep -Ev "^\{EXERCISE" >> ${solutions_file}
         echo >> ${solutions_file}
-        echo "**Solution**" >> ${solutions_file}
+        echo "#### Solution" >> ${solutions_file}
         sed -n ${solution_start_line},${solution_end_line}p ${exercises_file} | grep -Ev "^\{EXERCISE" >> ${solutions_file}
         echo >> ${solutions_file}
         echo "[Go back to the exercise](#exercise_${exercise_label})" >> ${solutions_file}
+        echo >> ${solutions_file}
+        echo "* * *" >> ${solutions_file}
         echo >> ${solutions_file}
     done
 

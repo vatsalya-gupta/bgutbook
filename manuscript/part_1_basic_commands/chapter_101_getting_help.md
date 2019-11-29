@@ -45,13 +45,13 @@ Oh yeah, there are exercises for you! My experience as a learner is that many ti
 
 
 {#exercise_1_01}
-### Exercise 1.01
+#### Exercise 1.01
 Enter the man page for the `echo` command and locate the `AUTHOR` (actually the authors).
 
 [Go to solution](#solution_1_01)
 
 {#exercise_1_02}
-### Exercise 1.02
+#### Exercise 1.02
 Enter the man page for the `sort` command (we haven't used it yet, but the man page is there). Enter the online help and locate how to `Undo (toggle) search highlighting` with the search pattern command. Now exit the help, search for `ignore` and practise the search highlighting toggle command.
 
 [Go to solution](#solution_1_02)

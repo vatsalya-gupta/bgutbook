@@ -1,11 +1,11 @@
-# Day 13 - Regular expressions - Anchors and multiple matches
+# Day 13 - Regular expressions - Anchors
 
 {blurb, icon: quote-right}
 -- 
 
 {/blurb}
 
-This is day 3 of your journey into regular expressions, are you ready for some more magic? Today we will learn how to use anchors and multiple matches. No, we are not setting boats on fire, what did you understand? We are going to discover how to tell a regular expression where the text is and how to manage repetitions.
+This is day 3 of your journey into regular expressions, are you ready for some more magic? Today we will learn how to use anchors. No, we are not setting boats on fire, what did you understand? We are going to discover how to tell a regular expression where the text is and how to manage repetitions.
 
 Let's start with anchors. You might like to know TODO that the HTML tag `<a>` commonly used to include hypertext links, comes from anchor, as it was a way to anchor an element to a specific place in the markup. Old times, now things are completely different. Anyway, this has nothing to do with regular expressions, TODO but for the fact that we generally have the need of specifying where some text has to be found.
 

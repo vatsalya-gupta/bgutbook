@@ -53,7 +53,7 @@ Command substitution is expressed by the syntax `$(command)`, where `command` is
 $ x=$(seq 1 5); echo ${x}
 ```
 
-Please note that in this case the variable `x` gets the value of the string `"1 2 3 4 5"`. It is not a list, or any other complex data type, just a simple string made of digits and spaces. Bash automatically converted the newline characters used by `seq` into spaces, and this will come in very handy when we will learn loops.
+Please note that in this case the variable `x` gets the value of the string `"1 2 3 4 5"`. It is not a list, or any other complex data type, just a simple string made of digits and spaces. Bash automatically converted the newline characters used by `seq` into spaces, and this will come in very handy when we will learn how to write loops.
 
 * * *
 

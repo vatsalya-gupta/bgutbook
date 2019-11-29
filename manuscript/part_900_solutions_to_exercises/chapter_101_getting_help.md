@@ -3,10 +3,10 @@
 ## Solutions to exercises
 
 {#solution_1_01}
-### Exercise 1.01
+#### Exercise 1.01
 Enter the man page for the `echo` command and locate the `AUTHOR` (actually the authors).
 
-**Solution**
+#### Solution
 Run the command
 
 ``` sh
@@ -17,11 +17,13 @@ Inside the man page press `/` (slash) and type `AUTHOR`, then hit Enter. You sho
 
 [Go back to the exercise](#exercise_1_01)
 
+* * *
+
 {#solution_1_02}
-### Exercise 1.02
+#### Exercise 1.02
 Enter the man page for the `sort` command (we haven't used it yet, but the man page is there). Enter the online help and locate how to `Undo (toggle) search highlighting` with the search pattern command. Now exit the help, search for `ignore` and practise the search highlighting toggle command.
 
-**Solution**
+#### Solution
 Run the command
 
 ``` sh
@@ -37,4 +39,6 @@ ESC-u                Undo (toggle) search highlighting.
 Now exit the help with `q`, hit `/`, type `ignore` and Enter. This highlights the occurrences. Now press ESC and then `u`. You don't need to keep ESC pressed, just hit ESC and then hit `u`, and the highlighting should disappear. Press `ESC-u` again and the highlighting should reappear. Now exit the help with `q`.
 
 [Go back to the exercise](#exercise_1_02)
+
+* * *
 

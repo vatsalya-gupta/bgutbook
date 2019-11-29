@@ -116,13 +116,13 @@ $ cat TODO | sort | uniq -c
 
 
 {#exercise_10_01}
-### Exercise 10.01
+#### Exercise 10.01
 Print the 5 more frequent IP addresses in the simple log file TODO
 
 [Go to solution](#solution_10_01)
 
 {#exercise_10_02}
-### Exercise 10.02
+#### Exercise 10.02
 Print the HTTP methods used by the requests in the simple log file TODO and count how many occurrences are there for each one.
 
 [Go to solution](#solution_10_02)
