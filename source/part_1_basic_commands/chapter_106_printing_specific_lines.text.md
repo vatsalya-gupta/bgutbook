@@ -29,7 +29,7 @@ I said `sed` is extremely powerful, so is it possible it can only print a single
 $ sed -n 3,8p slices.txt
 ```
 
-This prints lines 3-8 of the given file. Are you not satisfied yet? OK, `sed` can also print a certain number of lines starting from a given one. This often saves me from the shame TODO of showing the world that I am terrible at math.
+This prints lines 3-8 of the given file. Are you not satisfied yet? OK, `sed` can also print a certain number of lines starting from a given one. This often saves me from the shame of showing the world that I am terrible at math.
 
 ``` sh
 $ sed -n 3,+5p slices.txt
@@ -41,6 +41,6 @@ This gives you the same output of the previous command, as it start at line 3, p
 
 Did you notice I haven't given you any exercise last time? Yes you did, I'm sure. Well, no exercises for this lesson either, just practice a bit printing lines and try to get used to the weird syntax.
 
-Yesterday I gave you a headache with strange symbols, today I hope I just gained TODO again your consideration. Let's wrap it up here, there is a new film that awaits you, and some crisps. Remember to put some beers in the fridge, one for you, and one for your new friend `sed`. And maybe give some food to the `cat` as well, poor little thing.
+Yesterday I gave you a headache with strange symbols, today I hope I just regained your trust. Let's wrap it up here, there is a new film that awaits you, and some crisps. Remember to put some beers in the fridge, one for you, and one for your new friend `sed`. And maybe give some food to the `cat` as well, poor little thing.
 
 Suggested film for the evening: Robin Hood (1973)

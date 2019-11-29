@@ -7,7 +7,7 @@ Run the command
 $ man echo
 ```
 
-Inside the man page press `/` (slash) and type `AUTHOR`, then hit Enter. You should have found that `echo` has been written by Brian Fox and Chet Ramey TODO. Now silently say thanks to then for the time they spent creating these utilities. They did it for free, so you should be grateful.
+Inside the man page press `/` (slash) and type `AUTHOR`, then hit Enter. You should have found that `echo` has been written by Brian Fox and Chet Ramey. Now silently say thanks to then for the time they spent creating these utilities. They did it for free, so you should be grateful.
 {EXERCISE END 01}
 
 {EXERCISE BEGIN 02}
