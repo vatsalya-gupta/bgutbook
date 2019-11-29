@@ -29,19 +29,7 @@ As this lesson was a bit short and there are not many smart exercises that you c
 
 Printing the content of a file is pretty straightforward, but there are a couple of interesting tricks that may come handy later, so these exercises will help you to discover them.
 
-
-{#exercise_3_01}
-### Exercise 3.01
-Print the content of the file `examples.txt` numbering lines.
-
-[Go to solution](#solution_3_01)
-
-{#exercise_3_02}
-### Exercise 3.02
-Chech if the file `examples.txt` contains spaces at the end of any line.
-
-[Go to solution](#solution_3_02)
-
+{EXERCISES 3}
 
 * * *
 

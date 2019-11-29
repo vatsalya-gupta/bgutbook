@@ -55,13 +55,7 @@ prepends one 0 to the numbers between 1 and 9 to get the same length of the last
 
 I have one exercise for you this time! Yay! Your excitement is so great that it is travelling in time and reaching me in the past, while I'm writing the book. You can skip it if you want, but I think you should try to solve it to see if we are on the same page.
 
-
-{#exercise_7_01}
-### Exercise 7.01
-Print the numbers from 5 to 15 padded with enough zeros to fill 5 digits, i.e. `00005`, `00006`, `00007`, and so on.
-
-[Go to solution](#solution_7_01)
-
+{EXERCISES 7}
 
 * * *
 

@@ -33,19 +33,7 @@ My advice is to just always use the quotes, it is useless to waste time thinking
 
 Time for some exercises! At this point we have a pretty good amount of tools in our belt, so we can start performing useful tasks. Let's consider the simple.log file, which represents the part of the logs of a web server (a simplified version of an actual log of the Apache server). Remember that you can print the content of the file beforehand with either `cat` or `head`
 
-
-{#exercise_9_01}
-### Exercise 9.01
-Print fields 1,6,7, and 8 of the file `simple.log`
-
-[Go to solution](#solution_9_01)
-
-{#exercise_9_02}
-### Exercise 9.02
-Extract the time of each request as HH:MM:SS
-
-[Go to solution](#solution_9_02)
-
+{EXERCISES 9}
 
 * * *
 

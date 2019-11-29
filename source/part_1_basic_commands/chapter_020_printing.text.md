@@ -39,31 +39,7 @@ Hardly. Quotes are probably one of the worst topics in the whole bash syntax and
 
 For today, before you fall asleep bored by my explanations, try these quick exercises.
 
-
-{#exercise_2_01}
-### Exercise 2.01
-Print the string "Just a test"
-
-[Go to solution](#solution_2_01)
-
-{#exercise_2_02}
-### Exercise 2.02
-Print a string without the trailing newline (check the manual page)
-
-[Go to solution](#solution_2_02)
-
-{#exercise_2_03}
-### Exercise 2.03
-Run
-
-``` sh
-$ echo "First line\nSecond line"
-```
-
-What happens? Can you find a way to convert that `\n` into a newline?
-
-[Go to solution](#solution_2_03)
-
+{EXERCISES 2}
 
 * * *
 

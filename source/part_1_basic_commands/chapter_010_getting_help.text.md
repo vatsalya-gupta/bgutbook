@@ -43,19 +43,7 @@ So, to seach for a string in a manual page you tap `/` (note the bottom line wai
 
 Oh yeah, there are exercises for you! My experience as a learner is that many times I read or listen to something, and I cosider it learned, only to discover that when I'm alone after a while I don't remember it very well, or that some parts of what was discussed are still unclear. So, my advice for you is: go through the exercises, even though they might seem trivial to you. Practising is always good, even when you are a master coder. I'm not, and if you are reading this book, probably you aren't either. Which leads to... exercises!
 
-
-{#exercise_1_01}
-### Exercise 1.01
-Enter the man page for the `echo` command and locate the `AUTHOR` (actually the authors).
-
-[Go to solution](#solution_1_01)
-
-{#exercise_1_02}
-### Exercise 1.02
-Enter the man page for the `sort` command (we haven't used it yet, but the man page is there). Enter the online help and locate how to `Undo (toggle) search highlighting` with the search pattern command. Now exit the help, search for `ignore` and practise the search highlighting toggle command.
-
-[Go to solution](#solution_1_02)
-
+{EXERCISES 1}
 
 * * *
 
