@@ -11,7 +11,7 @@ In the previous chapter we learned how to match a single specific character in a
 
 In a regular expression, the syntax `[<characters>]` means "any single character in the list", and it is exactly what we need in this case. For example
 
-```
+``` sh
 $ cat examples.txt | grep -E "[abc]"
 ```
 
@@ -19,7 +19,7 @@ matches a single "a", a single "b", or a single "c". Remember that `grep` highli
 
 Classes are especially useful because they allow you to use ranges. For example
 
-```
+``` sh
 $ cat examples.txt | grep -E "[a-z]"
 ```
 
@@ -29,7 +29,7 @@ If you use regular expressions in an editor to search for strings (I let you dis
 
 Typical ranges are `a-z` for lowercase letters, `A-Z` for uppercase ones, and `0-9` for digits. You can use more than one range in a class, for example
 
-```
+``` sh
 $ cat examples.txt | grep -E "[a-zA-Z]"
 ```
 

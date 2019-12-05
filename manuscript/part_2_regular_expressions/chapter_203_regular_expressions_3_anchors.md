@@ -1,8 +1,8 @@
 # Day 13 - Regular expressions - Anchors
 
 {blurb, icon: quote-right}
--- 
-
+-- _Okay, here. Stop. Throw anchor._
+The Karate Kid (1984)
 {/blurb}
 
 This is day 3 of your journey into regular expressions, are you ready for some more magic? Today we will learn how to use anchors. No, we are not setting boats on fire, what did you understand? We are going to discover how to tell a regular expression where the text is and how to manage repetitions.
@@ -79,3 +79,8 @@ Match every empty line in examples.txt
 
 * * *
 
+Anchoring text is very important as many times the pattern we are looking for is repeated in other parts of the line, but those are not interesting. The beginning and the end of the line are good reference points to start analysing text, so it is good that regular expressions provide this two special positioning characters.
+
+In the next lesson we will discuss multiple matches, but for the time being be happy, your knowledge of regular expressions is increasing day by day!
+
+Suggested film for the evening: Jason and the Argonauts (1963)
