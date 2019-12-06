@@ -12,7 +12,7 @@ I usually avoid trying to be funny when writing or speaking in English; it's not
 
 If it doesn't work, I apologise in advance. you can always go and get some ancient tome of dark magic like "The Unix Bible". I'm pretty sure you will remember for years the moment in which you'll manage to conjure some sort of multitentacular Lovecraftian horror, but I'm not sure this will have a significant impact on your career. If we exclude the fact that it will probably put an end to it, obviously.
 
-# Why you should read this book
+## Why you should read this book
 
 If you are a programmer, nowadays you probably got in touch with Open Source software, with version control system like Git, with cloud services like AWS, with some dynamic language like Python or Ruby. What do all these things have in common? Many things probably, but one of them is definitely that they are rooted in the Unix world. [^win]
 
@@ -44,6 +44,8 @@ output line 3
 output line 4
 output line 5
 ```
+
+TODO Explain `[...]``
 
 If you fancy some historical information, the dollar sign was apparently first introduced in Version 7 Unix, released in 1979 by Bell Labs, as that was the first version to be shipped with the Bourne shell. So much for long-lasting choices!
 

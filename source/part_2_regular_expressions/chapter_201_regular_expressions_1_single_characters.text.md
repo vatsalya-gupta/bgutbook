@@ -65,6 +65,8 @@ matches only those separated by a literal dot. Pay attention that the dot can be
 
 * * *
 
+## Exercises
+
 {EXERCISES 11}
 
 * * *

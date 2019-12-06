@@ -63,6 +63,8 @@ If you try the last example without either the `^` or the `$` you will see that 
 
 * * *
 
+## Exercises
+
 {EXERCISES 13}
 
 * * *

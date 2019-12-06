@@ -39,6 +39,8 @@ Remember that a class, that is the whole block between square brackets, brackets
 
 * * *
 
+## Exercises
+
 {EXERCISES 12}
 
 * * *

@@ -111,7 +111,7 @@ TODO add the OR `|` command
 
 Exercises! Groups can be complex sometimes, so testing your knowledge can't but be beneficial. Remember that you can always write regular expressions in an incremental way, adding pieces and testing what they do (maybe adding the occasional `head` to avoid getting too many output lines)
 
-# {EXERCISES 15}
+{EXERCISES 15}
 
 * * *
 
