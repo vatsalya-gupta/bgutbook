@@ -94,6 +94,8 @@ instead, also matches the single `D` that comes from the line `R2-D2`, as that `
 
 * * *
 
+## Exercises
+
 
 {#exercise_14_01}
 #### Exercise 14.01

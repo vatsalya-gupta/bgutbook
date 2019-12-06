@@ -59,22 +59,7 @@ $ seq 1 20 | sort -n
 2
 3
 4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
+[...]
 ```
 
 The default sorting order used by the command is ascending, that is following the alphabet (or the value of the numbers). To show the sorted list in reverse order we can use the `-r` option
