@@ -1,6 +1,17 @@
 # Preface
 
+{blurb, icon: quote-right}
+-- _Help me, Obi-Wan Kenobi. You are my only hope._
+Star Wars (1977)
+{/blurb}
+
 ## Who this book is for
+
+This book is meant for anyone wants to be more productive in a Unix environment such as Linux or Mac OS. This is an introductory textbook, so the reader is supposed to have no previous knowledge of the subject matter, and they should expect to learn the most important commands and concepts they might be using daily.
+
+In recent years the gap between developers and system administrators has been fortunately reduced in various ways, all under the umbrella of the devops philosophy, so this book will be useful to those developers that have to start getting in touch with the "bare metal". These developers might find in the book a gradual learning curve and a quick reference for the most common commands of a Unix environment.
+
+On the other hand, there are people (like the author of this book) who are interested in the low-level side of applications development, and want to pursue a career as system administrators or architects. For these people, this book can be a good starting point, where they can be introduced to tools and concepts they will use every single day. They will probably soon feel the need of something more complete and deeper, and there are tons of books and resources that can quench the thirst for TODO knowledge, but I hope they will enjoy the first steps that they will move together with me.
 
 ## Why this book exists
 
@@ -10,7 +21,7 @@ So, I decided to run some sessions in which we discovered together the bash shel
 
 I usually avoid trying to be funny when writing or speaking in English; it's not my native language, so I lack the vocabulary and the comedic timing. But a thing that I learned many years ago is that a laugh helps people to remember what was said, so this time I decided to try with a light-hearted approach. I hope this will ease the read and make your journey into the Unix world more comfortable.
 
-If it doesn't work, I apologise in advance. you can always go and get some ancient tome of dark magic like "The Unix Bible". I'm pretty sure you will remember for years the moment in which you'll manage to conjure some sort of multitentacular Lovecraftian horror, but I'm not sure this will have a significant impact on your career. If we exclude the fact that it will probably put an end to it, obviously.
+If it doesn't work, I apologise in advance. you can always go and get some ancient tome of dark magic like "The Unix Bible". I'm pretty sure you will remember for years the moment in which you'll manage to conjure some sort of multi-tentacular Lovecraftian horror, but I'm not sure this will have a significant impact on your career. If we exclude the fact that it will probably put an end to it, obviously.
 
 ## Why you should read this book
 
@@ -23,6 +34,16 @@ That of Unix is a rich world, and this book will not even scratch the surface. b
 The command line is a tool that I think will never get too old to be useful. I am happy when the GUI of some program is simple and well designed, but there is simply nothing that can give you more power than the command line.
 
 So, long story short, you should definitely learn at least the fundamentals of the command line!
+
+## Who should not read the book
+
+To put it simply TODO, this is a primer, so if you are an advanced Unix user you should stop reading here. This book is not for you. If you decide to go on, however, please consider that this wants to be an introduction to Unix for people who never heard of it. Yeah, I know it sounds incredible that people can use a computer without a terminal and that they can survive day by day thinking that pipes convey TODO water and that sockets are useful only in winter, but this is why I believe a book like this can be useful.
+
+To be fair, if you want to introduce a novice to Unix in 2019 you have to face 50 years of history and a legacy of countless choices that sound perfectly reasonable to people who grew up into them. There are at least two widespread implementations of it, Linux and Mac OS X, the first of which comes in dozens of different flavours (distributions) and the second of which behaves in all sorts of unexpected ways.
+
+So, I had to compromise. In particular, dear expert nitpicker, you will notice that I use the terms "Unix", "Unix shell", "bash", "terminal" as synonyms. And believe me, I cringe every time I do it. But, to be honest, this book wants to be a primer for people who don't know anything about what is arguably a niche subject. And my experience tells me that the best way to dishearten someone is to make them feel stupid, flooding the conversation or the lesson with tons of terms they never heard and that they do not understand. Sure, this makes you shine, but what's the point?
+
+So, sorry. I know the nomenclature in the book is all but accurate, and I hope that novices will come back to this book after some years, smiling at the levity with which I desecrated the holy ground of Unix.
 
 ## The prompt
 
@@ -45,21 +66,17 @@ output line 4
 output line 5
 ```
 
-TODO Explain `[...]``
+I will include the output of the command when it is relevant for the explanation and generally when it is not too long. The idea of the book is that the reader should test the commands on their own terminal, so I consider it pointless to fill pages with output that nobody will ever read. When I need to truncate the output I will include an ellipsis TODO between square brackets as in the following example
 
-If you fancy some historical information, the dollar sign was apparently first introduced in Version 7 Unix, released in 1979 by Bell Labs, as that was the first version to be shipped with the Bourne shell. So much for long-lasting choices!
+``` sh
+$ command --option value --another-option another-value
+output line 1
+output line 2
+output line 3
+[...]
+```
 
-## Making excuses
-
-OK, if you are an advanced Unix user you should stop reading here. This book is not for you. If you decide to go on, however, you have to leave your knowledge behind, you have to pretend you don't know all those fancy terms, names, concepts.
-
-Because introducing people to Unix is complex, and I had to make all sorts of compromises.
-
-In 2019, if you want to introduce a novice to Unix you have to face 50 years of history and a legacy of countless choices that sound perfectly reasonable to people who grew up into them. There are at least two widespread implementations of it, Linux and Mac OS X, the first of which comes in dozens of different flavours (distributions) and the second of which behaves in all sorts of unexpected ways.
-
-So, I had to compromise. In particular, dear expert nitpicker, you will notice that I use the terms "Unix", "Unix shell", "bash", "terminal" as synonyms. And believe me, I cringe every time I do it. But, to be honest, this book wants to be a primer for people who don't know anything about what is arguably a niche subject. And my experience tells me that the best way to dishearten someone is to make them feel stupid, flooding the conversation or the lesson with tons of terms they never heard and that they do not understand. Sure, this makes you shine, but what's the point?
-
-So, sorry. I know the nomenclature in the book is all but accurate, and I hope that novices will come back to this book after some years, smiling at the levity with which I desecrated the holy ground of Unix.
+If you fancy some historical information, the dollar sign used for the prompt was apparently first introduced in Version 7 Unix, released in 1979 by Bell Labs, as that was the first version to be shipped with the Bourne shell. So much for long-lasting choices!
 
 ## Discrimination of fruit-labelled products
 
@@ -73,12 +90,12 @@ For the time being, I will provide instructions to run a Linux machine in a Dock
 
 ## Acknowledgments
 
+* TODO Unix, Linux, bash authors
+* TODO The Bash book
 * Łukasz Dziedzic, who developed the free "Lato" font ([Latofonts](http://www.latofonts.com)), used for the cover.
 
 The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. This book is written by a commuter for commuters. We spend countless times in stations and on public transport, and even these places can reveal a secret beauty.
 
-## Example files
+## Sources
 
-While many of the example files have been created explicitly for this book, some of them have been found online. In particular
-
-* apache.log - https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs
+The sources of the knowledge I tried to distil TODO in this book are countless. ManypPeople and books written by them, forums, Stack Overflow TODO answers, a lot of experiments, a couple of hard disk partitions zapped trying to understand how the filesystem works, and a decent number of years spent automating processes. While all these are too many to be properly mentioned I can definitely provide the source of the log file used in the examples and the exercises. It is a simplified version of an Apache log file that can be downloaded at https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs

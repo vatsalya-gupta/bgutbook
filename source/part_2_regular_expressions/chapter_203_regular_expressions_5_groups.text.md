@@ -101,9 +101,44 @@ $ cat examples.txt | grep -E "[A-Z]([0-9])-[A-Z]\1"
 R2-D2
 ```
 
-matches an uppercase letter followed by a digit (grouped), a dash, another uppercase letter, and the same digit that matched in the group. A string like `R2-D3` would not match this regular expression, but it might be because the processing engine has a Star Wars lore checker inside!
+matches an uppercase letter followed by a digit (grouped), a dash, another uppercase letter, and the same digit that matched in the group. A string like `R2-D3` would not match this regular expression, because the digit 3 doesn't match the previous digit. Or maybe it won't match because the processing engine has a Star Wars lore checker inside!
 
-TODO add the OR `|` command
+A final interesting feature of groups is that they allow to use the `OR` logical operator at a local level. Let's first have a look at the operator in a standard regular expression without groups. Having read so far, you clearly understand the following regular expressions
+
+``` sh
+$ cat examples.txt | grep -E "^o"
+ostrich
+ogre
+$ cat examples.txt | grep -E "a$"
+gorilla
+```
+
+The first one matches the lines beginning with the letter `o`, while the second one matches those ending with `a`. You can match both at the same time with the logical OR represented by a pipe `|`
+
+``` sh
+$ cat examples.txt | grep -E "^o|a$"
+ostrich
+gorilla
+ogre
+```
+
+Don't be confused by the use of the pipe symbol. In a regular expression this character doesn't have the meaning it has on the command line, that is to connect commands, it just represents a logical OR. It is a powerful tool, as it allows you to run multiple unrelated regular expressions at the same time, without forcing you to split them into several executions of `grep` or any other tool.
+
+So far, though, the operator can only separate two whole expressions. Groups allow you to use the logical OR at a local level, as you can see in this example
+
+``` sh
+$ cat examples.txt | grep -E "[A-Z]([a-z]|[0-9]-)"
+Dug the Dog
+Police 101
+R2-D2
+Johnny 5
+Spider-Man [*]
+Cyborg 009
+Big Bad Wolf
+* TM Sony Pictures
+```
+
+The regular expression matches an uppercase letter, followed by either a lowercase letter (`Du`, `Cy`) or a digit and a dash (`R2-`). As I want the dash to follow only the digit, if present, this condition would be impossible to express in a single run without the OR operator, and without the support of a group I would have to repeat part of the expression twice. Always remember that duplicated code is evil, even in regular expressions.
 
 * * *
 
@@ -114,5 +149,7 @@ Exercises! Groups can be complex sometimes, so testing your knowledge can't but 
 {EXERCISES 15}
 
 * * *
+
+ I think you should be proud of yourself, you made it so far and you are still alive. Are you? Hello? Just joking, I'm pretty sure you followed along and that the exercises made you appreciate groups even more. This chapter concludes our journey in the land of regular expressions, it's time to get into bash scripting. I warmly recommend to stop here for now, grab a drink, enjoy a walk, a game, something relaxing. See you in the next part of the book!
 
 Suggested film for the evening: 

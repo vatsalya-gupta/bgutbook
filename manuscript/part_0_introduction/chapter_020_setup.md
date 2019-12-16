@@ -1,5 +1,10 @@
 # Setup
 
+{blurb, icon: quote-right}
+-- _Help me, Obi-Wan Kenobi. You are my only hope._
+Star Wars (1977)
+{/blurb}
+
 ## Example files
 
 Many examples and exercises in the book use text files that are available on GitHub at TODO. To access them you just need to clone the repository.
