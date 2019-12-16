@@ -1,8 +1,8 @@
 # Preface
 
 {blurb, icon: quote-right}
--- _Help me, Obi-Wan Kenobi. You are my only hope._
-Star Wars (1977)
+-- _Begin._
+The Princess Bride (1987)
 {/blurb}
 
 ## Who this book is for

@@ -166,6 +166,30 @@ Extract all the lines of `simple.log` that contain an HTTP method `GET` or `POST
 
 [Go to solution](#solution_15_01)
 
+{#exercise_15_02}
+#### Exercise 15.02
+The file `simple.log` contains lines with requests concerning files like
+
+``` txt
+83.149.9.216 [17/May/2015:10:05:03 GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1 200 203023 http://semicomplete.com/presentations/logstash-monitorama-2013/
+```
+
+Extract a list of all file extensions and count them. Assume that extensions are made of lowercase letters only.
+
+[Go to solution](#solution_15_02)
+
+{#exercise_15_03}
+#### Exercise 15.03
+There are three lines in the file `simple.log` where a request received an HTTP 500 status code, for example
+
+``` txt
+66.249.73.135 [18/May/2015:15:05:42 GET /misc/Title.php.txt HTTP/1.1 500 - -
+```
+
+Find them and print the IP addresses of each client in a single comma-separated line (i.e. `<IP number 1>,<IP number 2>,<IP number 3>`)
+
+[Go to solution](#solution_15_03)
+
 
 * * *
 

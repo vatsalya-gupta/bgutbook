@@ -1,8 +1,8 @@
 # Setup
 
 {blurb, icon: quote-right}
--- _Help me, Obi-Wan Kenobi. You are my only hope._
-Star Wars (1977)
+-- _This is after the preface but before chapter one_
+An American Werewolf in London (1981)
 {/blurb}
 
 ## Example files
