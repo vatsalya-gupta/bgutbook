@@ -40,7 +40,11 @@ The regular expressions is made of four repetitions of `[0-9]{1,3}`, which match
 The file simple.log contains the HTTP method used in the request (for example `GET` or `POST`) followed by a space and the rest of the log line. For each request that uses a `GET` print the HTTP method and everything that follows.
 {EXERCISE SOLUTION 04}
 ``` sh
-$ grep -Eo "GET .*" simple.log 
+$ grep -Eo "GET .*" simple.log
+GET /presentations/logstash-monitorama-2013/images/kibana-search.png HTTP/1.1 200 203023 http://semicomplete.com/presentations/logstash-monitorama-2013/
+GET /presentations/logstash-monitorama-2013/images/kibana-dashboard3.png HTTP/1.1 200 171717 http://semicomplete.com/presentations/logstash-monitorama-2013/
+GET /presentations/logstash-monitorama-2013/plugin/highlight/highlight.js HTTP/1.1 200 26185 http://semicomplete.com/presentations/logstash-monitorama-2013/
+[...]
 ```
 
 The pattern `.*` is one of the most common ones in regular expressions. As `.` matches any character and `*` matches 0 or more repetitions of the previous component, `.*` means any repetition of any character, or "anything" for TODO short. This is extremely useful whenever there are long dishomogeneous TOOD parts of a line that you want to match without writing a (probably very complex and long) regular expressions that matches them.

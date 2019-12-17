@@ -63,6 +63,8 @@ HTTP/1.1
 
 matches only those separated by a literal dot. Pay attention that the dot can be a punctuation mark, a decimal point, or have any other meaning. Regular expressions don't know anythign about the text that you are parsing, they just consider pure characters.
 
+TODO add simple sed replacements
+
 * * *
 
 ## Exercises

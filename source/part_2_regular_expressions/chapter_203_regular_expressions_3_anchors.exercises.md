@@ -3,13 +3,15 @@ Match every line of examples.txt that ends with an upper case letter and a numbe
 {EXERCISE SOLUTION 01}
 ``` sh
 $ cat examples.txt | grep "[A-Z][0-9]$"
+R2-D2
 ```
 {EXERCISE END 01}
 
 {EXERCISE BEGIN 02}
-Match every empty line in examples.txt
+Count how many empty lines are contained in the file examples.txt
 {EXERCISE SOLUTION 02}
 ``` sh
-$ cat examples.txt | grep "^$"
+$ cat examples.txt | grep "^$" | wc -l
+1
 ```
 {EXERCISE END 02}

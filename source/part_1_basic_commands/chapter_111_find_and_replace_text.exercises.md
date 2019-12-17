@@ -3,6 +3,7 @@ Using `grep` and `wc`, count how many times the file `examples.txt` contains the
 {EXERCISE SOLUTION 01}
 ``` sh
 $ grep "dog" examples.txt | wc -l
+3
 ```
 {EXERCISE END 01}
 
@@ -10,7 +11,14 @@ $ grep "dog" examples.txt | wc -l
 Print all the lines of `examples.txt` that do not contain either a lowercase or an uppercase `h`
 {EXERCISE SOLUTION 02}
 ``` sh
-$ grep -vi "h" examples.txt 
+$ grep -vi "h" examples.txt
+dog
+cat
+dryad
+dog
+Police 101
+aardvark
+[...]
 ```
 
 The lesson doesn't tell you how to reverse-match the given string, so you need to read the man page for `grep`, which says
@@ -28,6 +36,12 @@ Replace all letters `e` in the file `examples.txt` with a question mark `?`, the
 {EXERCISE SOLUTION 03}
 ``` sh
 $ cat examples.txt | sed s,"e","?",g | grep " "
+Dug th? Dog
+Polic? 101
+corn dog
+phas? spid?r
+und?ad r?d dragon
+[...]
 ```
 
 There are no specific issues in using question mark and spaces, as long as you use quotes to surround the latter.

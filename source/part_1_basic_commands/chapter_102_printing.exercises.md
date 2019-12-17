@@ -3,12 +3,14 @@ Print the string "Just a test"
 {EXERCISE SOLUTION 01}
 ``` sh
 $ echo "Just a test"
+Just a test
 ```
 
 As we discussed in the chapter this can also be solved running
 
 ``` sh
 $ echo Just a test
+Just a test
 ```
 
 but I believe the first solution is better. It is immediately clear which part of the command is the string and later, when we will create scripts in an editor, strings between quotes are highlighted.
@@ -28,9 +30,10 @@ So, if you run
 
 ``` sh
 $ echo -n "Just a string"
+Just a string$
 ```
 
-You should get the string immediately followed by the prompt. This is useful when you want to give the user some feedback on a running process like a for loop, and you want to print a single character like for example a dot. Inside the loop you want to print those characters without the newline to keep then on the same output line.
+You should get the string immediately followed by the prompt, as you can see above. This is useful when you want to give the user some feedback on a running process like a for loop, and you want to print a single character like for example a dot. Inside the loop you want to print those characters without the newline to keep then on the same output line.
 {EXERCISE END 02}
 
 {EXERCISE BEGIN 03}

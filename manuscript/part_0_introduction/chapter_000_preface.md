@@ -11,17 +11,17 @@ This book is meant for anyone wants to be more productive in a Unix environment 
 
 In recent years the gap between developers and system administrators has been fortunately reduced in various ways, all under the umbrella of the devops philosophy, so this book will be useful to those developers that have to start getting in touch with the "bare metal". These developers might find in the book a gradual learning curve and a quick reference for the most common commands of a Unix environment.
 
-On the other hand, there are people (like the author of this book) who are interested in the low-level side of applications development, and want to pursue a career as system administrators or architects. For these people, this book can be a good starting point, where they can be introduced to tools and concepts they will use every single day. They will probably soon feel the need of something more complete and deeper, and there are tons of books and resources that can quench the thirst for TODO knowledge, but I hope they will enjoy the first steps that they will move together with me.
+On the other hand, there are people (like the author of this book) who are interested in the low-level side of applications development and want to pursue a career as system administrators or architects. For these people, this book can be a good starting point, where they can be introduced to tools and concepts they will use every single day. They will probably soon feel the need of something more complete and deeper, and there are tons of books and resources that can quench the thirst for knowledge, but I hope they will enjoy the first steps that they will move together with me.
 
 ## Why this book exists
 
 When I decided to write this book I was working on a series of short workshops for my junior colleagues. I hadn't worked with juniors for many years, and while I was perfectly conscious that some people didn't grow up with a command line, practically speaking I was assuming that they knew what I did, which is probably a mistake that many advanced programmers make.
 
-So, I decided to run some sessions in which we discovered together the bash shell, starting from the simplest commands up to some proper scripting. I was rewarded (and I still am) by a lot of satisfied smiles when they finally got the right sequence of pipes or when they discovered regular expressions. From those sessions, and from the notes that I wrote to prepare them, I had the idea of a book that could be easily followed, maybe in one's spare time, as nowadays it's always very complex for people to find time to study big tomes.
+So, I decided to run some sessions in which we discovered the bash shell, starting from the simplest commands up to some proper scripting. I was rewarded (and I still am) by a lot of satisfied smiles when they finally got the right sequence of pipes or when they discovered regular expressions. From those sessions, and from the notes that I wrote to prepare them, I had the idea of a book that could be easily followed, maybe in one's spare time, as nowadays it's always very complex for people to find time to study big tomes.
 
 I usually avoid trying to be funny when writing or speaking in English; it's not my native language, so I lack the vocabulary and the comedic timing. But a thing that I learned many years ago is that a laugh helps people to remember what was said, so this time I decided to try with a light-hearted approach. I hope this will ease the read and make your journey into the Unix world more comfortable.
 
-If it doesn't work, I apologise in advance. you can always go and get some ancient tome of dark magic like "The Unix Bible". I'm pretty sure you will remember for years the moment in which you'll manage to conjure some sort of multi-tentacular Lovecraftian horror, but I'm not sure this will have a significant impact on your career. If we exclude the fact that it will probably put an end to it, obviously.
+If it doesn't work, I apologise in advance. you can always go and get some ancient tome of dark magic like "The Unix Bible". I'm pretty sure you will remember for years the moment in which you'll manage to conjure some sort of multi-tentacular Lovecraftian horror, but I'm not sure this will have a significant impact on your career. If we exclude the fact that it will probably put an end to it.
 
 ## Why you should read this book
 
@@ -29,7 +29,7 @@ If you are a programmer, nowadays you probably got in touch with Open Source sof
 
 [^win]: Sure, you can have all these things in your Windows laptop (Windows is not a Unix-like operating system), but I can't recommend it. I mean, you bought a water pistol, and you want to use it with real bullets. Good luck!
 
-That of Unix is a rich world, and this book will not even scratch the surface. but one of the most powerful things Unix systems have is the command line. Yes, in 2019, with AIs constantly processing everything we search and do online, mobile phones with perfect user interfaces, and proper virtual reality around the corner, the good old green-on-black terminal still has something to say. Actually more than something!
+That of Unix is a rich world, and this book will not even scratch the surface. but one of the most powerful things Unix systems have is the command line. Yes, in 2019, with AIs constantly processing everything we search and do online, mobile phones with perfect user interfaces, and proper virtual reality around the corner, the good old green-on-black terminal still has something to say. More than something!
 
 The command line is a tool that I think will never get too old to be useful. I am happy when the GUI of some program is simple and well designed, but there is simply nothing that can give you more power than the command line.
 
@@ -37,7 +37,7 @@ So, long story short, you should definitely learn at least the fundamentals of t
 
 ## Who should not read the book
 
-To put it simply TODO, this is a primer, so if you are an advanced Unix user you should stop reading here. This book is not for you. If you decide to go on, however, please consider that this wants to be an introduction to Unix for people who never heard of it. Yeah, I know it sounds incredible that people can use a computer without a terminal and that they can survive day by day thinking that pipes convey TODO water and that sockets are useful only in winter, but this is why I believe a book like this can be useful.
+To put it simply, this is a primer, so if you are an advanced Unix user you should stop reading here. This book is not for you. If you decide to go on, however, please consider that this wants to be an introduction to Unix for people who never heard of it. Yeah, I know it sounds incredible that people can use a computer without a terminal and that they can survive day by day thinking that pipes convey TODO water and that sockets are useful only in winter, but this is why I believe a book like this can be useful.
 
 To be fair, if you want to introduce a novice to Unix in 2019 you have to face 50 years of history and a legacy of countless choices that sound perfectly reasonable to people who grew up into them. There are at least two widespread implementations of it, Linux and Mac OS X, the first of which comes in dozens of different flavours (distributions) and the second of which behaves in all sorts of unexpected ways.
 
@@ -47,13 +47,13 @@ So, sorry. I know the nomenclature in the book is all but accurate, and I hope t
 
 ## The prompt
 
-The command line always prints a fixed string in front of each line when waiting for input. This is aptly called _prompt_. The prompt is highly customisable, as it is an invaluable source of information to have handy. My prompt, for example, typically contains the full path of the directory I'm in at the moment, so that I have a clear idea of my position at any time. Many people add the current time, or the Git branch they are in at the moment. Since the prompt changes from system to system, and from user to user, it is custom to represent it with a dollar sign `$`. So this
+The command line always prints a fixed string in front of each line when waiting for input. This is aptly called _prompt_. The prompt is highly customisable, as it is an invaluable source of information to have handy. My prompt, for example, typically contains the full path of the directory I'm in at the moment so that I have a clear idea of my position at any time. Many people add the current time, or the Git branch they are in at the moment. Since the prompt changes from system to system, and from user to user, it is custom to represent it with a dollar sign `$`. So this
 
 ``` sh
 $ command --option value --another-option another-value
 ```
 
-means that you are supposed to type the string from `command`, as the `$` is already there  in some form on your terminal.
+means that you are supposed to type the string from `command`, as the `$` is already there in some form on your terminal.
 
 I will often show the output of the command as it appears on the terminal, just under the prompt, like this
 
@@ -66,7 +66,7 @@ output line 4
 output line 5
 ```
 
-I will include the output of the command when it is relevant for the explanation and generally when it is not too long. The idea of the book is that the reader should test the commands on their own terminal, so I consider it pointless to fill pages with output that nobody will ever read. When I need to truncate the output I will include an ellipsis TODO between square brackets as in the following example
+I will include the output of the command when it is relevant for the explanation and generally when it is not too long. The idea of the book is that the reader should test the commands on their terminal, so I consider it pointless to fill pages with output that nobody will ever read. When I need to truncate the output I will include an ellipsis between square brackets as in the following example
 
 ``` sh
 $ command --option value --another-option another-value
@@ -88,14 +88,41 @@ For the time being, I will provide instructions to run a Linux machine in a Dock
 
 (Despite the mocking tone, I'm really sorry I can't provide instructions for every case!)
 
+## Why this book comes for free
+
+The first reason I started writing a technical blog was to share with others my discoveries, and to save them the hassle of going through processes I had already cracked. Moreover, I always enjoy the fact that explaining something forces me to better understand that topic, and writing requires even more study to get things clear in my mind, before attempting to introduce other people to the subject.
+
+Much of what I know comes from personal investigations, but without the work of people who shared their knowledge for free I would not have been able to make much progress. The Free Software Movement didn't start with Internet, and I got a taste of it during the 80s and 90s, but the World Wide Web undeniably gave an impressive boost to the speed and quality of this knowledge sharing.
+
+So this book is a way to say thanks to everybody gave their time to write blog posts, free books, software, and to organise conferences, groups, meetups. This is why I teach people at conferences, this is why I write a technical blog, this is the reason for this book.
+
+That said, if you want to acknowledge the effort with money, feel free. Anyone who publishes a book or travels to conferences incurs expenses, and any help is welcome. However the best thing you can do is to become part of this process of shared knowledge; experiment, learn and share what you learn.
+
+## Submitting issues or patches
+
+This book is not a collaborative effort. It is the product of my work, and it expresses my personal view on some topics, and also follows my way of teaching. Both can definitely be improved, and they might also be wrong, so I am open to suggestions, and I will gladly receive any report about mistakes or any request for clarifications. Feel free to use the GitHub Issues of the [book repository](https://github.com/bgutbook/bgutbook/issues). I will answer or fix issues as soon as possible, and if needed I will publish a new version of the book with the correction. Thanks!
+
+## About the author
+
+My name is Leonardo Giordani, I was born in 1977 with Star Wars, bash, Apple ][, BSD, Dire Straits, The Silmarillion. I'm interested in operating systems and computer languages, photography, fantasy and science fiction, video and board games, guitar playing, and (too) many other things.
+
+I studied and used several programming languages, from the Z80 and x86 Assembly to Python and Scala. I love mathematics and cryptography. I'm mainly interested in open source software, and I like both the theoretical and practical aspects of computer science.
+
+For 13 years I was a C/Python programmer and devops for a satellite imagery company. and I am currently infrastructure engineer at [WeGotPOP](https://www.wegotpop.com), a UK company based in London and New York that creates innovative software for film productions.
+
+In 2013 I started publishing some technical thoughts on my blog, [The Digital Cat](http://thedigitalcatonline.com).
+
 ## Acknowledgments
 
-* TODO Unix, Linux, bash authors
-* TODO The Bash book
+* Ken Thompson, Dennis Ritchie, Brian Kernighan and others for writing the Unix operating system.
+* Linus Torvalds for writing the Linux kernel and all the kernel developers.
+* Stephen Bourne for his Bourne shell, Brian Fox for the Bourne-again shell, and many other people contributing to these amazing tools.
+* Richard Stallman and all the people working on the GNU project for porting the Unix utilities.
+* Machtelt Garrels for her amazing Bash Guide for Beginners. It saved my day many times.
 * Łukasz Dziedzic, who developed the free "Lato" font ([Latofonts](http://www.latofonts.com)), used for the cover.
 
 The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. This book is written by a commuter for commuters. We spend countless times in stations and on public transport, and even these places can reveal a secret beauty.
 
 ## Sources
 
-The sources of the knowledge I tried to distil TODO in this book are countless. ManypPeople and books written by them, forums, Stack Overflow TODO answers, a lot of experiments, a couple of hard disk partitions zapped trying to understand how the filesystem works, and a decent number of years spent automating processes. While all these are too many to be properly mentioned I can definitely provide the source of the log file used in the examples and the exercises. It is a simplified version of an Apache log file that can be downloaded at https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs
+The sources of the knowledge I tried to distil in this book are countless. Many people and the books they wrote, forums, Stack Overflow answers, a lot of experiments, a couple of hard disk partitions zapped trying to understand how the filesystem works, and a decent number of years spent automating processes. While all these are too many to be properly mentioned I can definitely provide the source of the log file used in the examples and the exercises. It is a simplified version of an Apache log file that can be downloaded at https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs

@@ -7,19 +7,19 @@ An American Werewolf in London (1981)
 
 ## Example files
 
-Many examples and exercises in the book use text files that are available on GitHub at TODO. To access them you just need to clone the repository.
+Many examples and exercises in the book use text files that are available on GitHub at https://github.com/bgutbook/bgutbook_files. To access them you just need to clone the repository.
 
 ```
-git clone TODO
+git clone https://github.com/bgutbook/bgutbook_files.git
 ```
 
-If you don't know how to use Git you can find a 5 minutes intro at TODO, or you can download a zipped version of the repository at TODO.
+If you don't know how to use Git you can many resources online, or you can download a zipped version of the repository at https://github.com/bgutbook/bgutbook_files.
 
 ## Linux users
 
 If you are a Linux user you are basically already set up. The only thing you need to do is to download the test files and make sure that you run examples and exercises inside the cloned directory.
 
-Extract the archive in a directory of choice and reach it from your terminal. If you are using a graphical environment like Gnome or KDE you can usually find a "Open terminal here" command in the file browser. Otherwise you can just fire up a terminal (Konsole for KDE, GNOME terminal for GNOME, or any other terminal emulator) and move to that directory with the command `cd path/of/the/directory`. Once you are there running the command `ls` should show you a list of the files. We will discuss this command in depth in the book, as the file system is one of the things we will learn to use, but for the time being just try to get there.
+Extract the archive in a directory of choice and reach it from your terminal. If you are using a graphical environment like Gnome or KDE you can usually find a "Open terminal here" command in the file browser. Otherwise you can just fire up a terminal (Konsole for KDE, GNOME terminal for GNOME, or any other terminal emulator) and move to that directory with the command `cd path/of/the/directory`. Once you are there running the command `ls` should show you a list of the files.
 
 Congrats! You are ready to go!
 
@@ -36,7 +36,7 @@ So if you are using Mac OS X or Windows, you will have to run Linux in a Docker 
 Open a terminal in the folder where you cloned the example files or unzipped the archive and run Docker with the following command line
 
 ``` sh
-docker run -t -i -v .:/opt/utpbook_files ubuntu /bin/bash
+docker run -t -i -v $(pwd):/opt/bgutbook_files ubuntu /bin/bash
 ```
 
 This should show you a new terminal like
@@ -45,6 +45,6 @@ This should show you a new terminal like
 root@e9edf6b15579:/#
 ```
 
-At this point run the command `cd /opt/utpbook_files` that will go to the directory where you can find the example files. Once there, if you run `ls` you should see a list of the files.
+At this point run the command `cd /opt/bgutbook_files` that will go to the directory where you can find the example files. Once there, if you run `ls` you should see a list of the files.
 
 Sorry for the extra work. You are ready to go!

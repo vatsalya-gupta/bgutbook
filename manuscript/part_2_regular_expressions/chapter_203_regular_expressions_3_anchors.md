@@ -74,7 +74,7 @@ Match every line of examples.txt that ends with an upper case letter and a numbe
 
 {#exercise_13_02}
 #### Exercise 13.02
-Match every empty line in examples.txt
+Count how many empty lines are contained in the file examples.txt
 
 [Go to solution](#solution_13_02)
 

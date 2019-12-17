@@ -49,7 +49,7 @@ $ seq -w 1 10
 
 prepends one 0 to the numbers between 1 and 9 to get the same length of the last number, 10. This is called left zero-padding, in the elite circles of programmers, but I bet you can also call it zero left padding and everybody would understand. Now shout "Launch a zero left-padded sequence!" and tell me if you don't feel like one the mecha pilots of some Japanese anime. I honestly thing it's cool.
 
-TOD Bonus `wc`
+TODO Bonus `wc`
 
 * * *
 
