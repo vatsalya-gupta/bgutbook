@@ -9,8 +9,8 @@ An American Werewolf in London (1981)
 
 Many examples and exercises in the book use text files that are available on GitHub at https://github.com/bgutbook/bgutbook_files. To access them you just need to clone the repository.
 
-```
-git clone https://github.com/bgutbook/bgutbook_files.git
+``` sh
+$ git clone https://github.com/bgutbook/bgutbook_files.git
 ```
 
 If you don't know how to use Git you can many resources online, or you can download a zipped version of the repository at https://github.com/bgutbook/bgutbook_files.
@@ -31,20 +31,80 @@ Linux is the operating system used in the vast majority of cloud solutions, and 
 
 I'm using Linux on my personal computers as well, but the majority of programmers use a Mac or a Windows machine. The main reason for not covering Mac OS is that its default terminal is not 100% compatible with the Linux counterparts (as Mac doesn't use the GNU utilities). I don't have a Mac and even if I could cover all the different versions of the utilities, I think this would be daunting for beginners. The main reason for not covering Windows is that it is not even a Unix. I know that recent versions include some sort of Linux layer, but again I don't have time and interest in those systems.
 
-So if you are using Mac OS X or Windows, you will have to run Linux in a Docker container. Refer to the [Docker documentation](https://docs.docker.com/install/) to install it.
+So if you are using Mac OS X or Windows, you will have to run Linux in a Docker container, please refer to the [Docker documentation](https://docs.docker.com/install/) to install it. I will provide here two different solutions, the first one is simple but will be missing some parts of the system, while the second is a bit more complex but complete.
 
-Open a terminal in the folder where you cloned the example files or unzipped the archive and run Docker with the following command line
+You can come back at any time and run the more complex solution if you initially decided to go for the simple one and you want to try the more complete version.
+
+### Simple solution
+
+You can run the default Ubuntu image in Docker. This image has been stripped to be smaller, so you will miss some of the documentation that comes with a Linux system, called "man pages". We will use them in the first lesson and I encourage the reader to use them to learn how to use commands, so if you go for this solution you will have to refer to the online man pages every time you need help on a command. I will mention the online resources in the relevant chapter of the book, so don't worry now.
+
+To run the Ubuntu image first clone the repository with the example files, enter that directory and run Docker. The commands are
 
 ``` sh
-docker run -t -i -v $(pwd):/opt/bgutbook_files ubuntu /bin/bash
+$ git clone https://github.com/bgutbook/bgutbook_files.git
+$ cd bgutbook_files
+$ docker run -t -i -v $(pwd):/opt/bgutbook_files ubuntu /bin/bash
+root@1d888c92ee76:/# 
 ```
 
-This should show you a new terminal like
+As you can see the prompt changes, which tells you that you are inside the Linux container. Please note that the number that follows the `@`` sign in the prompt is the ID of the running Docker container, so it will be different for you. At that point move to the directory that contains the example files inside the container
 
 ``` sh
-root@e9edf6b15579:/#
+root@1d888c92ee76:/# cd /opt/bgutbook_files/
+root@1d888c92ee76:/opt/bgutbook_files#
 ```
 
-At this point run the command `cd /opt/bgutbook_files` that will go to the directory where you can find the example files. Once there, if you run `ls` you should see a list of the files.
+From here you are ready to start reading the book and run the examples. Whenever you want to exit you just need to type `exit` and Enter. When you want to go on you just need to follow again the process, skipping the `git clone` part.
 
-Sorry for the extra work. You are ready to go!
+``` sh
+$ cd bgutbook_files
+$ docker run -t -i -v $(pwd):/opt/bgutbook_files ubuntu /bin/bash
+root@1d888c92ee76:/# cd /opt/bgutbook_files/
+root@1d888c92ee76:/opt/bgutbook_files#
+```
+
+### Advanced solution
+
+If you want to have a Ubuntu container with the man pages you need to create a new Docker image. I provide a configuration for such a machine as a `Dockerfile` in the `bgutbook_docker` repository. Please note that you need to have Docker already installed in your system.
+
+First of all clone the repository
+
+``` sh
+$ git clone https://github.com/bgutbook/bgutbook_docker.git
+```
+
+Then enter the directory and build the Docker image
+
+``` sh
+$ cd bgutbook_docker
+$ docker build -t bgutbook_ubuntu .
+```
+
+Now Docker will create an image called `bgutbook_docker` and store it in your system. At this point you are ready to run it whenever you want to follow along the examples of the book.
+
+Exit the directory with the `Dockerfile`, clone the repository with the example files, enter that directory and run Docker. The commands are
+
+``` sh
+$ cd ..
+$ git clone https://github.com/bgutbook/bgutbook_files.git
+$ cd bgutbook_files
+$ docker run -t -i -v $(pwd):/opt/bgutbook_files bgutbook_ubuntu /bin/bash
+root@1d888c92ee76:/# 
+```
+
+As you can see the prompt changes, which tells you that you are inside the Linux container. Please note that the number that follows the `@`` sign in the prompt is the ID of the running Docker container, so it will be different for you. At that point move to the directory that contains the example files inside the container
+
+``` sh
+root@1d888c92ee76:/# cd /opt/bgutbook_files/
+root@1d888c92ee76:/opt/bgutbook_files#
+```
+
+From here you are ready to start reading the book and run the examples. Whenever you want to exit you just need to type `exit` and Enter. When you want to go on you just need to follow again the process, skipping the `git clone` part.
+
+``` sh
+$ cd bgutbook_files
+$ docker run -t -i -v $(pwd):/opt/bgutbook_files bgutbook_ubuntu /bin/bash
+root@1d888c92ee76:/# cd /opt/bgutbook_files/
+root@1d888c92ee76:/opt/bgutbook_files#
+```

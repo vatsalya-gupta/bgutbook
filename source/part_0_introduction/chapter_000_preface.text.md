@@ -37,7 +37,7 @@ So, long story short, you should definitely learn at least the fundamentals of t
 
 ## Who should not read the book
 
-To put it simply, this is a primer, so if you are an advanced Unix user you should stop reading here. This book is not for you. If you decide to go on, however, please consider that this wants to be an introduction to Unix for people who never heard of it. Yeah, I know it sounds incredible that people can use a computer without a terminal and that they can survive day by day thinking that pipes convey TODO water and that sockets are useful only in winter, but this is why I believe a book like this can be useful.
+To put it simply, this is a primer, so if you are an advanced Unix user you should stop reading here. This book is not for you. If you decide to go on, however, please consider that this wants to be an introduction to Unix for people who never heard of it. Yeah, I know it sounds incredible that people can use a computer without a terminal and that they can survive day by day thinking that pipes convey water and that sockets can be found on walls, but this is why I believe a book like this can be useful.
 
 To be fair, if you want to introduce a novice to Unix in 2019 you have to face 50 years of history and a legacy of countless choices that sound perfectly reasonable to people who grew up into them. There are at least two widespread implementations of it, Linux and Mac OS X, the first of which comes in dozens of different flavours (distributions) and the second of which behaves in all sorts of unexpected ways.
 
@@ -80,7 +80,7 @@ If you fancy some historical information, the dollar sign used for the prompt wa
 
 ## Discrimination of fruit-labelled products
 
-Mac OS is the Unix-like operating system with the largest desktop user base among programmers, as many of us have an Apple notebook as their primary device. I'm not one of them, and I was very surprised to find out that the shell provided by Mac OS is only partially compatible with the traditional bash shell provided by Linux distributions. In particular, the core utilities of Mac OS are not the GNU ones, so many command line options are not present, or different.
+Mac OS is the Unix-like operating system with the largest desktop user base among programmers, as many have an Apple notebook as their primary device. I'm not one of them, and I was very surprised to find out that the shell provided by Mac OS is only partially compatible with the traditional bash shell provided by Linux distributions. In particular, the core utilities of Mac OS are not the GNU ones, so many command line options are not present, or different.
 
 As I want to publish this book before I retire, I will go for the simplest solution. I won't provide examples or explanations for the Mac OS terminal, I'm sorry. If you are using a Mac, either for your personal choice or because of some external constraint, you will have to look for some specific solutions online.
 
@@ -94,7 +94,7 @@ The first reason I started writing a technical blog was to share with others my 
 
 Much of what I know comes from personal investigations, but without the work of people who shared their knowledge for free I would not have been able to make much progress. The Free Software Movement didn't start with Internet, and I got a taste of it during the 80s and 90s, but the World Wide Web undeniably gave an impressive boost to the speed and quality of this knowledge sharing.
 
-So this book is a way to say thanks to everybody gave their time to write blog posts, free books, software, and to organise conferences, groups, meetups. This is why I teach people at conferences, this is why I write a technical blog, this is the reason for this book.
+So this book is together with other things that I wrote, a way to say thanks to everybody gave their time to write blog posts, free books, software, and to organise conferences, groups, meetups. This is why I teach people at conferences, this is why I write a technical blog, this is the reason behind this book.
 
 That said, if you want to acknowledge the effort with money, feel free. Anyone who publishes a book or travels to conferences incurs expenses, and any help is welcome. However the best thing you can do is to become part of this process of shared knowledge; experiment, learn and share what you learn.
 
@@ -104,13 +104,13 @@ This book is not a collaborative effort. It is the product of my work, and it ex
 
 ## About the author
 
-My name is Leonardo Giordani, I was born in 1977 with Star Wars, bash, Apple ][, BSD, Dire Straits, The Silmarillion. I'm interested in operating systems and computer languages, photography, fantasy and science fiction, video and board games, guitar playing, and (too) many other things.
+My name is Leonardo Giordani, I was born in Italy in 1977. That year gave to the world also Star Wars, bash, Apple ][, BSD, Dire Straits, The Silmarillion. I'm interested in operating systems and computer languages, photography, fantasy and science fiction, video and board games, guitar playing, and (too) many other things.
 
 I studied and used several programming languages, from the Z80 and x86 Assembly to Python and Scala. I love mathematics and cryptography. I'm mainly interested in open source software, and I like both the theoretical and practical aspects of computer science.
 
 For 13 years I was a C/Python programmer and devops for a satellite imagery company. and I am currently infrastructure engineer at [WeGotPOP](https://www.wegotpop.com), a UK company based in London and New York that creates innovative software for film productions.
 
-In 2013 I started publishing some technical thoughts on my blog, [The Digital Cat](http://thedigitalcatonline.com).
+In 2013 I started publishing some technical thoughts on my blog, [The Digital Cat](http://thedigitalcatonline.com). In 2018 I published my first book with Leanpub, "Clean Architectures in Python", which at the time of writing has been already downloaded over than 10,000 times.
 
 ## Acknowledgments
 
@@ -121,7 +121,7 @@ In 2013 I started publishing some technical thoughts on my blog, [The Digital Ca
 * Machtelt Garrels for her amazing Bash Guide for Beginners. It saved my day many times.
 * Łukasz Dziedzic, who developed the free "Lato" font ([Latofonts](http://www.latofonts.com)), used for the cover.
 
-The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. This book is written by a commuter for commuters. We spend countless times in stations and on public transport, and even these places can reveal a secret beauty.
+The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. As a commuter in London, I spend hours in stations and on public transport, and even these places can reveal a secret beauty.
 
 ## Sources
 
