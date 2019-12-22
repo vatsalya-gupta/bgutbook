@@ -10,7 +10,7 @@ Cyborg 009
 {EXERCISE END 01}
 
 {EXERCISE BEGIN 02}
-The log file simple.log contains the status of HTTP responses, which is a three digit number preceded TODO and followed by a space. HTTP statuses are categorised according to the initial digit and 4xx responses (that is 400, 401, 402, and so on) are considered TODO resource errors. Count how many HTTP 4xx responses are in the file for each type of error.
+The log file simple.log contains the status of HTTP responses, which is a three digit number preceded and followed by a space. HTTP statuses are categorised according to the initial digit and 4xx responses (that is 400, 401, 402, and so on) are considered resource errors. Count how many HTTP 4xx responses are in the file for each type of error.
 {EXERCISE SOLUTION 02}
 ``` sh
 $ grep -Eo " 4[0-9]{2} " simple.log | sort | uniq -c
@@ -47,6 +47,6 @@ GET /presentations/logstash-monitorama-2013/plugin/highlight/highlight.js HTTP/1
 [...]
 ```
 
-The pattern `.*` is one of the most common ones in regular expressions. As `.` matches any character and `*` matches 0 or more repetitions of the previous component, `.*` means any repetition of any character, or "anything" for TODO short. This is extremely useful whenever there are long dishomogeneous TOOD parts of a line that you want to match without writing a (probably very complex and long) regular expressions that matches them.
+The pattern `.*` is one of the most common ones in regular expressions. As `.` matches any character and `*` matches 0 or more repetitions of the previous component, `.*` means any repetition of any character, or "anything" for short. This is extremely useful whenever there are long parts of a line that you want to manage without writing a (probably very complex and long) regular expressions that matches them.
 {EXERCISE END 04}
 

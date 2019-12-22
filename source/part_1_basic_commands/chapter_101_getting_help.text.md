@@ -20,7 +20,7 @@ $ man echo
 ```
 
 {blurb, class: warning}
-If you are running Linux in a Docker container and you followed the simple solution you will not have man pages installed in your system, so you need to read them at https://manpages.ubuntu.com/and the search form at the topright of the page.
+If you are running Linux in a Docker container and you followed the simple solution you will not have man pages installed in your system, so you need to read them at https://manpages.ubuntu.com/and the search form at the top right of the page.
 {/blurb}
 
 First of all, let me teach you some of the basic fundamentals of man page driving. You can move through the documentation with your arrow keys, down and up, and with the page down and page up keys to quickly scroll the whole page. Please note that, since manual pages are read-only, there is no cursor, just a current line, which is the topmost one.

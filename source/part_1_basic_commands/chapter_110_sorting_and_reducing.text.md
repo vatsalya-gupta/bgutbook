@@ -94,8 +94,28 @@ Is there anything that people like more than sorting? Oh yeah, and it is pizza! 
 So, `uniq` can compress a sorted text, removing duplicated lines, but counting them, giving as output a nice report of the number of times a certain line appeared.
 
 ``` sh
-$ cat TODO | sort | uniq -c
+$ cat examples.txt | sort | uniq -c
+      1 
+      1 007
+      1 aardvark
+      1 basilisk
+      1 beholder
+      1 Big Bad Wolf
+      1 bull
+      1 C-3PO
+      3 cat
+      1 corn dog
+      1 Cyborg 009
+      1 direwolf
+      2 dog
+      1 dryad
+      1 Dug the Dog
+      1 elephant
+      1 gorilla
+[...]
 ```
+
+As you can see results are ordered and reduced, but `uniq` also counts them before removing duplicates, so we know that there are 3 lines containing `cat` and 2 lines containing `dog`, while `basilisk` appears only once in the file. The result of `uniq -c` can be sorted again to get the results that appear the most or the least, you will have to find a way in the first exercise of this chapter.
 
 * * *
 

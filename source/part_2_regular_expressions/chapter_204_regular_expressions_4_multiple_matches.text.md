@@ -5,11 +5,11 @@
 Little Shop of Horrors (1986)
 {/blurb}
 
-Well, not bad at all! We are still alive after 3 lessons about something that is considered an advanced topic. Congrats! I hope you are not only surviving, but actually enjoying the journey. I think you start TODO to appreciate that regular expressions are not actually difficult, they are however complicated, full of special symbols and rules. So far we learned how to use `.` for any character, square brackets `[` and `]` for classes and ranges with `-` inside them, and finally the two anchors `^` and `$`.
+Well, not bad at all! We are still alive after 3 lessons about something that is considered an advanced topic. Congrats! I hope you are not only surviving, but actually enjoying the journey. I think you start to appreciate that regular expressions are not actually difficult, they are however complicated, full of special symbols and rules. So far we learned how to use `.` for any character, square brackets `[` and `]` for classes and ranges with `-` inside them, and finally the two anchors `^` and `$`.
 
 Today we'll have a look at multiple matches. Generally speaking a multiple match is a repeated match of a previous regular expressions, and typical use case is when you need to match a specific number of digits or letters, but multiple matches can also be less specific, for example matching an indefinite number of lowercase letters.
 
-Let's start with exact matches, which are performed with the syntax `{N}`, where `N` is the number of matches . As I said, all multiple matches operations refer TODO to a previous regular expression, so if you write
+Let's start with exact matches, which are performed with the syntax `{N}`, where `N` is the number of matches . As I said, all multiple matches operations refer to a previous regular expression, so if you write
 
 ``` sh
 $ grep -E "a{2}" examples.txt
@@ -43,7 +43,7 @@ beholder
 [...]
 ```
 
-matches exactly three adjacent lowercase letters. Is is worth noting TODO that the patterns do not overlap: for example, in `elephant` the regular expression matches `ele` and `pha` only, and not `ele`, `lep`, `eph`, and so on. Once a pattern has been matched it is skipped to continue the line analysis. This is pretty clear if you use the `-o` option of `grep` that we learned previously, which outputs only the matching part of the string
+matches exactly three adjacent lowercase letters. Is is worth noting that the patterns do not overlap: for example, in `elephant` the regular expression matches `ele` and `pha` only, and not `ele`, `lep`, `eph`, and so on. Once a pattern has been matched it is skipped to continue the line analysis. This is pretty clear if you use the `-o` option of `grep` that we learned previously, which outputs only the matching part of the string
 
 ``` sh
 $ grep -Eo "[a-z]{3}" examples.txt
@@ -58,8 +58,6 @@ beh
 old
 [...]
 ```
-
-TODO investigate grep and overlapping RE patterns
 
 The braces allow you to specify ranges, so `{n,m}` means from `n` to `m` repetitions, `{n,}` means `n` or more, and `{,m}` form zero to `m`. For example
 
@@ -90,7 +88,7 @@ Dog
 D
 ```
 
-instead, also matches the single `D` that comes from the line `R2-D2`, as that `D` is actually followed by zero or more lowercase letters. Pay attention to the last two examples: as you can see the `+` and the `*` are applied to the last _component_ of the regular expression, as happened for the braces, and not to the last _character_. The fact that a single letter or digit is also a regular expression component is just a particular case TODO.
+instead, also matches the single `D` that comes from the line `R2-D2`, as that `D` is actually followed by zero or more lowercase letters. Pay attention to the last two examples: as you can see the `+` and the `*` are applied to the last _component_ of the regular expression, as happened for the braces, and not to the last _character_. The syntax `a+` works because a single letter or digit is also a regular expression component on its own.
 
 * * *
 
