@@ -116,4 +116,4 @@ There are not many interesting exercises to do with `grep` and `sed` in this sim
 
 We will meet `grep` and `sed` again (and again and again) in the book and basically every time we will write some script. When we will learn regular expressions they will be back in play, and we will unleash their true power! Have a nice evening, or, if it's still morning `s,"evening","day",`!
 
-Suggested film for the evening: Fantasia (1940)
+Suggested film for the evening: Fantasia (1940) - What else do you think about when you read "elephants" and "abracadabra"?

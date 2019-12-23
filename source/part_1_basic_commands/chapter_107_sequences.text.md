@@ -84,4 +84,5 @@ I have one exercise for you this time! Yay! Your excitement is so great that it 
 
 That's it for today, I promised you it would have been a relaxing lesson: simple concepts, no homework, what more can you desire? A nice walk, this is what you need! Go, enjoy the nature if you can, or get your mecha and fight the alien invaders one zero-padded sequence at a time!
 
-Suggested film for the evening: Patlabor: the Movie (1989)
+Suggested film for the evening: WarGames (1983) - A young Unix programmer teaches a supercomputer to run a sequence of battle simulations and to count the casualties.
+

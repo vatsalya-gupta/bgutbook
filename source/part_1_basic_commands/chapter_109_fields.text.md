@@ -39,4 +39,4 @@ Time for some exercises! At this point we have a pretty good amount of tools in 
 
 Speaking of cutting, we made it in one piece apparently. Well, at least I am still OK, on the bus on my way to the office. Where are you? If you are commuting I hope you'll get soon to your office or home, and in this second case that you can have a good time relaxing and not worrying too much about fields.
 
-Suggested film for the evening: Edward Scissorhands (1991)
+Suggested film for the evening: Edward Scissorhands (1991) - Cutting has never been more fun!

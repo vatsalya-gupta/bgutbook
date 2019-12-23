@@ -152,4 +152,4 @@ Exercises! Groups can be complex sometimes, so testing your knowledge can't but 
 
  I think you should be proud of yourself, you made it so far and you are still alive. Are you? Hello? Just joking, I'm pretty sure you followed along and that the exercises made you appreciate groups even more. This chapter concludes our journey in the land of regular expressions, it's time to get into bash scripting. I warmly recommend to stop here for now, grab a drink, enjoy a walk, a game, something relaxing. See you in the next part of the book!
 
-Suggested film for the evening: 
+Suggested film for the evening: The Avengers (2012) - Groups are powerful, and when your Unix system is attacked by aliens from the outer space you need the most powerful one.

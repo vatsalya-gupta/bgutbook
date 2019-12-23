@@ -47,4 +47,4 @@ Remember that a class, that is the whole block between square brackets, brackets
 
 That's all about classes, as you can see the regular expressions syntax allows you to express rich patters in a short way, which is good! Now, use the time you saved thanks to the smart regular expressions! Have a chat with a friend, read a comic, lay in the sun if it is summer, build a snowman if it is winter. Class(es) dismissed!
 
-Suggested film for the evening: Dead Poets Society (1989)
+Suggested film for the evening: Dead Poets Society (1989) - A Unix programming class with a teacher that knows which man pages to keep and which to rip out. 

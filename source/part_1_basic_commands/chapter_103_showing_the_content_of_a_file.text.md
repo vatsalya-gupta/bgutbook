@@ -35,4 +35,4 @@ Printing the content of a file is pretty straightforward, but there are a couple
 
 Cool, have a walk, enjoy some music, relax. From next lesson we will start to go a bit deeper into Unix command line tricks, and I want you ready for the fight! Feel free to bring the cat along.
 
-Suggested film for the evening: That Darn Cat! (1965)
+Suggested film for the evening: That Darn Cat! (1965) - A beginner Unix programmer has issues with one of the simplest commands and involves the FBI in their struggle.

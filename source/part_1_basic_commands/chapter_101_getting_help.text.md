@@ -55,4 +55,4 @@ This is enough for now. You learned how to get help about commands, so from now 
 
 Oh, by the way. You can run `man man`, which despite the name is not a tome about the human condition.
 
-Suggested film for the evening: Manhunter (1986)
+Suggested film for the evening: Manhunter (1986) - A film about a guy who desperately tries to find man pages in a Unix system.

@@ -45,4 +45,4 @@ For today, before you fall asleep bored by my explanations, try these quick exer
 
 As a final remark, to leave you with some food for thought, what happens if you remove the quotes from the solution of the last exercise? Now go and watch a comedy film, or you will have nightmares.
 
-Suggested film for the evening: Catch Me If You Can (2002)
+Suggested film for the evening: Catch Me If You Can (2002) - A film about the dangers of becoming too skilled with printing.

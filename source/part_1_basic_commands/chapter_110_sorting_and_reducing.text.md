@@ -125,4 +125,4 @@ As you can see results are ordered and reduced, but `uniq` also counts them befo
 
 Now, this is what I think you should know about sorting and removing duplicates. Time to relax! What about some pizza? After all I was wrong before, we probably love pizza much more than sorting! Cowabunga!
 
-Suggested film for the evening: Terminator 2 (1991)
+Suggested film for the evening: Honey, I Shrunk the Kids (1989) - A scientist gets reducing a bit wrong and his kids have to sort it out.

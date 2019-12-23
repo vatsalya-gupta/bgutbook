@@ -106,4 +106,4 @@ Let's wrap up this short (and hopefully simple enough) introduction to regular e
 
 If you head is spinning, sit, relax, have a drink (maybe a soft one, otherwise the spinning will just get worse). It's time for something not related to regular expressions, editors, and command lines. What about a documentary on the history of operating systems? Just kidding! Have a walk, watch a TV series, enjoy your day!
 
-Suggested film for the evening: Reservoir Dogs (1992)
+Suggested film for the evening: The AristoCats (1970) - There are too many dogs in this chapter, it's time to fix it properly.

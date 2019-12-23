@@ -85,4 +85,4 @@ Anchoring text is very important as many times the pattern we are looking for is
 
 In the next lesson we will discuss multiple matches, but for the time being be happy, your knowledge of regular expressions is increasing day by day!
 
-Suggested film for the evening: Jason and the Argonauts (1963)
+Suggested film for the evening: Jason and the Argonauts (1963) - When is comes to use anchors mister Jason is the system administrator you need; he also knows a lot about escaping.

@@ -43,4 +43,4 @@ Did you notice I haven't given you any exercise last time? Yes you did, I'm sure
 
 Yesterday I gave you a headache with strange symbols, today I hope I just regained your trust. Let's wrap it up here, there is a new film that awaits you, and some crisps. Remember to put some beers in the fridge, one for you, and one for your new friend `sed`. And maybe give some food to the `cat` as well, poor little thing.
 
-Suggested film for the evening: Robin Hood (1973)
+Suggested film for the evening: The Conversation (1974) - Sometimes getting a single line is not the best choice, as this Unix programmer discovers while looking at conversationg logs.

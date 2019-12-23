@@ -51,4 +51,4 @@ And now, welcome to the Operating Systems Philosophy class of professor Unix! I'
 
 Enough for today! You will probably have nightmares about leaky pipes, philosophers and Pharaohs. I can only recommend a good book and a cup of tea. Just don't read anything related to ancient cultures!
 
-Suggested film for the evening: Stargate (1997)
+Suggested film for the evening: Stargate (1997) - Some Unix programmers work together on a manufact that apparently shows that ancient Egyptians were familiar with the command line.

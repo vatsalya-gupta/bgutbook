@@ -59,4 +59,4 @@ Please note that in this case the variable `x` gets the value of the string `"1 
 
 Cool, now enjoy the rest of the day, we will soon learn how to transform a pumpkin into a coach, and mice into servants, just remember that at midnight everything goes back to text files.
 
-Suggested film for the evening: A Beautiful Mind (2001)
+Suggested film for the evening: A Beautiful Mind (2001) - A film about the importance of variables, and the dangers of getting too involved in Unix scripting without having a good walk sometimes.
