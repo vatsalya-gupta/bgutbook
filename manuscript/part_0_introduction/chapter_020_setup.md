@@ -13,7 +13,7 @@ Many examples and exercises in the book use text files that are available on the
 $ git clone https://github.com/bgutbook/bgutbook_files.git
 ```
 
-If you don't know how to use Git you can many resources online, or you can download a zipped version of the repository on the main page of the repository.
+If you don't know how to use Git you can find many resources online, or you can download a zipped version of the repository on the main page of the repository.
 
 ## Linux users
 
@@ -29,7 +29,7 @@ Where `path/of/the/directory` is the full path of the repository that you cloned
 
 ## Mac OS users / Windows users
 
-I will cover only Linux in this book, at least for the initial versions.
+I will cover only Linux in this book, at least in the initial versions.
 
 Linux is the operating system used in the vast majority of cloud solutions, and is the de facto most widespread Unix on servers, and this is a good reason to cover it. 
 

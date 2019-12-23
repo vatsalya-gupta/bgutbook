@@ -86,7 +86,7 @@ As I want to publish this book before I retire, I will go for the simplest solut
 
 For the time being, I will provide instructions to run a Linux machine in a Docker container, so everybody can follow the lessons and enjoy the book. Maybe in the future I will provide some coverage of non-GNU versions of the standard utilities, but now this is too complex a task for me.
 
-(Despite the mocking tone, I'm really sorry I can't provide instructions for every case!)
+Despite the mocking tone, I'm really sorry I can't provide instructions for every case! The good news is that, while the single commands have different options the overall concepts are the same, so reading the book and learning how to use commands, how to find help on them and how to compose them in scripts will be extremely useful even for Mac OS users.
 
 ## Why this book comes for free
 
@@ -110,19 +110,19 @@ I studied and used several programming languages, from the Z80 and x86 Assembly 
 
 For 13 years I was a C/Python programmer and devops for a satellite imagery company. and I am currently infrastructure engineer at [WeGotPOP](https://www.wegotpop.com), a UK company based in London and New York that creates innovative software for film productions.
 
-In 2013 I started publishing some technical thoughts on my blog, [The Digital Cat](http://thedigitalcatonline.com). In 2018 I published my first book with Leanpub, "Clean Architectures in Python", which at the time of writing has been already downloaded over than 10,000 times.
+In 2013 I started publishing some technical thoughts on my blog, [The Digital Cat](http://thedigitalcatonline.com). In 2018 I published my first book with Leanpub, "Clean Architectures in Python", which at the time of writing has been already downloaded more than 10,000 times.
 
 ## Acknowledgments
 
 * Ken Thompson, Dennis Ritchie, Brian Kernighan and others for writing the Unix operating system.
-* Linus Torvalds for writing the Linux kernel and all the kernel developers.
+* Linus Torvalds and all the kernel developers for writing the Linux kernel.
 * Stephen Bourne for his Bourne shell, Brian Fox for the Bourne-again shell, and many other people contributing to these amazing tools.
 * Richard Stallman and all the people working on the GNU project for porting the Unix utilities.
 * Machtelt Garrels for her amazing Bash Guide for Beginners. It saved my day many times.
 * Łukasz Dziedzic, who developed the free "Lato" font ([Latofonts](http://www.latofonts.com)), used for the cover.
 
-The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. As a commuter in London, I spend hours in stations and on public transport, and even these places can reveal a secret beauty.
+The cover photograph is by [pxhere](https://pxhere.com/en/photo/175470). A detail of the photo has been extracted and edited. As a commuter in London, I spend hours in stations and on public transport, and even these places can reveal a secret beauty. This book was mostly written in the morning on busses of the line 26, if there are more typos than words now you know the reason.
 
 ## Sources
 
-The sources of the knowledge I tried to distil in this book are countless. Many people and the books they wrote, forums, Stack Overflow answers, a lot of experiments, a couple of hard disk partitions zapped trying to understand how the filesystem works, and a decent number of years spent automating processes. While all these are too many to be properly mentioned I can definitely provide the source of the log file used in the examples and the exercises. It is a simplified version of an Apache log file that can be downloaded at https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs
+The sources of the knowledge I tried to distil in this book are countless. Many people and the books they wrote, forums, Stack Overflow answers, a lot of experiments, a couple of hard disk partitions zapped trying to understand how the filesystem works, and a decent number of years spent automating processes. While all these are too many to be properly mentioned I can definitely provide the source of the log file used in the examples and the exercises. It is a simplified version of an Apache log file that can be downloaded (here)[https://github.com/elastic/examples/blob/master/Common%20Data%20Formats/apache_logs/apache_logs]
