@@ -1,4 +1,4 @@
-# Day 14 - Regular expressions - Multiple matches
+# Day 16 - Regular expressions - Multiple matches
 
 {blurb, icon: quote-right}
 -- _A date gives you a corsage, not a multiple fracture._
@@ -94,7 +94,7 @@ instead, also matches the single `D` that comes from the line `R2-D2`, as that `
 
 ## Exercises
 
-{EXERCISES 14}
+{EXERCISES 16}
 
 * * *
 

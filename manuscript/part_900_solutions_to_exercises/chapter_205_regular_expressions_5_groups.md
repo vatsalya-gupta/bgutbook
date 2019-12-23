@@ -1,9 +1,9 @@
-# Day 15 - Regular expressions - Groups
+# Day 17 - Regular expressions - Groups
 
 ## Solutions to exercises
 
-{#solution_15_01}
-#### Exercise 15.01
+{#solution_17_01}
+#### Exercise 17.01
 Extract all the lines of `simple.log` that contain an HTTP method `GET` or `POST`, rewrite each line in the form `<time> <HTTP status> <HTTP method>`. The result for the first 10 lines should be
 
 ``` txt
@@ -21,7 +21,7 @@ Extract all the lines of `simple.log` that contain an HTTP method `GET` or `POST
 
 #### Solution
 ``` sh
-$ head simple.log | grep -E " (GET|POST) " | sed -r s,".*[0-9]{4}:(.*) (GET|POST).*HTTP/1.[01] ([0-9]{3}).*","\1 \3 \2",
+$ head simple.log | grep -E " (GET|POST) " | sed -r s,".*[0-9]{4}:(.*)] (GET|POST).*HTTP/1.[01] ([0-9]{3}).*","\1 \3 \2",
 10:05:03 200 GET
 10:05:43 200 GET
 10:05:47 200 GET
@@ -34,14 +34,14 @@ $ head simple.log | grep -E " (GET|POST) " | sed -r s,".*[0-9]{4}:(.*) (GET|POST
 10:05:50 200 GET
 ```
 
-The idea behind this solution it to find all the lines that contain `GET` or `POST` using the logical OR in a group, so that either can be surrounded by spaces, which helps avoiding other mentions of those letters (like for example a line with an URL that contains "BUDGET" or "POSTER"). Then I decompose the rest of the line using the year (`[0-9]{4}:`) as an anchor. The HTTP protocol can be either `HTTP/1.0` or `HTTP/1.1`, and the HTTP status is always a three digits number (`[0-9]{3}`).
+The idea behind this solution it to find all the lines that contain `GET` or `POST` using the logical OR in a group, so that either can be surrounded by spaces, which helps avoiding other mentions of those letters (like for example a line with an URL that contains "BUDGET" or "POSTER"). Then I decompose the rest of the line using the year (`[0-9]{4}:`) as an anchor. Mentioning the closing square bracket `]` outside the group makes it disappear from the output. The HTTP protocol can be either `HTTP/1.0` or `HTTP/1.1`, and the HTTP status is always a three digits number (`[0-9]{3}`).
 
-[Go back to the exercise](#exercise_15_01)
+[Go back to the exercise](#exercise_17_01)
 
 * * *
 
-{#solution_15_02}
-#### Exercise 15.02
+{#solution_17_02}
+#### Exercise 17.02
 The file `simple.log` contains lines with requests concerning files like
 
 ``` txt
@@ -64,12 +64,12 @@ $ cat simple.log | grep -Po "(?<=GET )\/.*(?= HTTP)" | grep -Po "(?<=\.)[a-z]+$"
 [...]
 ```
 
-[Go back to the exercise](#exercise_15_02)
+[Go back to the exercise](#exercise_17_02)
 
 * * *
 
-{#solution_15_03}
-#### Exercise 15.03
+{#solution_17_03}
+#### Exercise 17.03
 There are three lines in the file `simple.log` where a request received an HTTP 500 status code, for example
 
 ``` txt
@@ -103,7 +103,7 @@ $ grep -E "HTTP/1.1 500" simple.log | grep -Eo  "^[0-9.]+" | paste -s -d,
 
 Make sure you read the man page of the `paste` command, it's pretty simple and useful to have in your toolkit.
 
-[Go back to the exercise](#exercise_15_03)
+[Go back to the exercise](#exercise_17_03)
 
 * * *
 

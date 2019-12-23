@@ -1,4 +1,4 @@
-# Day 12 - Regular expressions - Classes
+# Day 14 - Regular expressions - Classes
 
 {blurb, icon: quote-right}
 -- _I sat next to you in Mrs. Walsh's English class!_
@@ -41,7 +41,7 @@ Remember that a class, that is the whole block between square brackets, brackets
 
 ## Exercises
 
-{EXERCISES 12}
+{EXERCISES 14}
 
 * * *
 

@@ -1,4 +1,4 @@
-# Day 13 - Regular expressions - Anchors
+# Day 15 - Regular expressions - Anchors
 
 {blurb, icon: quote-right}
 -- _Okay, here. Stop. Throw anchor._
@@ -66,17 +66,17 @@ If you try the last example without either the `^` or the `$` you will see that 
 ## Exercises
 
 
-{#exercise_13_01}
-#### Exercise 13.01
+{#exercise_15_01}
+#### Exercise 15.01
 Match every line of examples.txt that ends with an upper case letter and a number (in this order)
 
-[Go to solution](#solution_13_01)
+[Go to solution](#solution_15_01)
 
-{#exercise_13_02}
-#### Exercise 13.02
+{#exercise_15_02}
+#### Exercise 15.02
 Count how many empty lines are contained in the file examples.txt
 
-[Go to solution](#solution_13_02)
+[Go to solution](#solution_15_02)
 
 
 * * *

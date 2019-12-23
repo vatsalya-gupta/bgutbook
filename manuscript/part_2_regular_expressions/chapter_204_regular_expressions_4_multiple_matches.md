@@ -1,4 +1,4 @@
-# Day 14 - Regular expressions - Multiple matches
+# Day 16 - Regular expressions - Multiple matches
 
 {blurb, icon: quote-right}
 -- _A date gives you a corsage, not a multiple fracture._
@@ -95,29 +95,29 @@ instead, also matches the single `D` that comes from the line `R2-D2`, as that `
 ## Exercises
 
 
-{#exercise_14_01}
-#### Exercise 14.01
+{#exercise_16_01}
+#### Exercise 16.01
 Match all the occurrences of exactly three digits in the file examples.txt
 
-[Go to solution](#solution_14_01)
+[Go to solution](#solution_16_01)
 
-{#exercise_14_02}
-#### Exercise 14.02
+{#exercise_16_02}
+#### Exercise 16.02
 The log file simple.log contains the status of HTTP responses, which is a three digit number preceded and followed by a space. HTTP statuses are categorised according to the initial digit and 4xx responses (that is 400, 401, 402, and so on) are considered resource errors. Count how many HTTP 4xx responses are in the file for each type of error.
 
-[Go to solution](#solution_14_02)
+[Go to solution](#solution_16_02)
 
-{#exercise_14_03}
-#### Exercise 14.03
+{#exercise_16_03}
+#### Exercise 16.03
 The log file simple.log contains the IP address of the client for each request. IP addresses are made of four numbers separated by dots (i.e. `A.B.C.D`), where each number goes from 0 to 255 (thus having from 1 to 3 digits). Find the 5 IP addresses that occur the highest number of times in the file, counting them
 
-[Go to solution](#solution_14_03)
+[Go to solution](#solution_16_03)
 
-{#exercise_14_04}
-#### Exercise 14.04
+{#exercise_16_04}
+#### Exercise 16.04
 The file simple.log contains the HTTP method used in the request (for example `GET` or `POST`) followed by a space and the rest of the log line. For each request that uses a `GET` print the HTTP method and everything that follows.
 
-[Go to solution](#solution_14_04)
+[Go to solution](#solution_16_04)
 
 
 * * *

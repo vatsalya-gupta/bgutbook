@@ -1,9 +1,9 @@
-# Day 12 - Regular expressions - Classes
+# Day 14 - Regular expressions - Classes
 
 ## Solutions to exercises
 
-{#solution_12_07}
-#### Exercise 12.07
+{#solution_14_07}
+#### Exercise 14.07
 Match any line of examples.txt containing a digit
 
 #### Solution
@@ -19,12 +19,12 @@ HTTP/1.1
 C-3PO
 ```
 
-[Go back to the exercise](#exercise_12_07)
+[Go back to the exercise](#exercise_14_07)
 
 * * *
 
-{#solution_12_08}
-#### Exercise 12.08
+{#solution_14_08}
+#### Exercise 14.08
 Match any line of examples.txt containing a lowercase "a" followed by any letter (that is "aa", "ab", "ac", and so on)
 
 #### Solution
@@ -45,12 +45,12 @@ cat
 Big Bad Wolf
 ```
 
-[Go back to the exercise](#exercise_12_08)
+[Go back to the exercise](#exercise_14_08)
 
 * * *
 
-{#solution_12_09}
-#### Exercise 12.09
+{#solution_14_09}
+#### Exercise 14.09
 Match any line of examples.txt containing an upper case letter followed by a digit
 
 #### Solution
@@ -60,12 +60,12 @@ H2O
 R2-D2
 ```
 
-[Go back to the exercise](#exercise_12_09)
+[Go back to the exercise](#exercise_14_09)
 
 * * *
 
-{#solution_12_10}
-#### Exercise 12.10
+{#solution_14_10}
+#### Exercise 14.10
 Match any line of examples.txt containing a dash
 
 #### Solution
@@ -76,12 +76,12 @@ Spider-Man [*]
 C-3PO
 ```
 
-[Go back to the exercise](#exercise_12_10)
+[Go back to the exercise](#exercise_14_10)
 
 * * *
 
-{#solution_12_11}
-#### Exercise 12.11
+{#solution_14_11}
+#### Exercise 14.11
 Match any line of examples.txt containing a left square bracket "["
 
 #### Solution
@@ -90,7 +90,7 @@ $ cat examples.txt | grep -E "[[]"
 Spider-Man [*]
 ```
 
-[Go back to the exercise](#exercise_12_11)
+[Go back to the exercise](#exercise_14_11)
 
 * * *
 

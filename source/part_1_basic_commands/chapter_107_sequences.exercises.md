@@ -16,3 +16,12 @@ $ seq -w 5 10000 | head -n 11
 00015
 ```
 {EXERCISE END 01}
+
+{EXERCISE BEGIN 02}
+Count the number of lines of the file simple.log
+{EXERCISE SOLUTION 02}
+``` sh
+$ cat simple.log | wc -l
+10000
+```
+{EXERCISE END 02}

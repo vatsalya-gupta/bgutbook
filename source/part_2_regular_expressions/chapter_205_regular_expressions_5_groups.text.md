@@ -1,4 +1,4 @@
-# Day 15 - Regular expressions - Groups
+# Day 17 - Regular expressions - Groups
 
 {blurb, icon: quote-right}
 -- _They come in groups of threes.__
@@ -146,7 +146,7 @@ The regular expression matches an uppercase letter, followed by either a lowerca
 
 Exercises! Groups can be complex sometimes, so testing your knowledge can't but be beneficial. Remember that you can always write regular expressions in an incremental way, adding pieces and testing what they do (maybe adding the occasional `head` to avoid getting too many output lines)
 
-{EXERCISES 15}
+{EXERCISES 17}
 
 * * *
 

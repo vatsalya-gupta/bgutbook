@@ -15,7 +15,7 @@ Extract all the lines of `simple.log` that contain an HTTP method `GET` or `POST
 ```
 {EXERCISE SOLUTION 01}
 ``` sh
-$ head simple.log | grep -E " (GET|POST) " | sed -r s,".*[0-9]{4}:(.*) (GET|POST).*HTTP/1.[01] ([0-9]{3}).*","\1 \3 \2",
+$ head simple.log | grep -E " (GET|POST) " | sed -r s,".*[0-9]{4}:(.*)] (GET|POST).*HTTP/1.[01] ([0-9]{3}).*","\1 \3 \2",
 10:05:03 200 GET
 10:05:43 200 GET
 10:05:47 200 GET
@@ -28,7 +28,7 @@ $ head simple.log | grep -E " (GET|POST) " | sed -r s,".*[0-9]{4}:(.*) (GET|POST
 10:05:50 200 GET
 ```
 
-The idea behind this solution it to find all the lines that contain `GET` or `POST` using the logical OR in a group, so that either can be surrounded by spaces, which helps avoiding other mentions of those letters (like for example a line with an URL that contains "BUDGET" or "POSTER"). Then I decompose the rest of the line using the year (`[0-9]{4}:`) as an anchor. The HTTP protocol can be either `HTTP/1.0` or `HTTP/1.1`, and the HTTP status is always a three digits number (`[0-9]{3}`).
+The idea behind this solution it to find all the lines that contain `GET` or `POST` using the logical OR in a group, so that either can be surrounded by spaces, which helps avoiding other mentions of those letters (like for example a line with an URL that contains "BUDGET" or "POSTER"). Then I decompose the rest of the line using the year (`[0-9]{4}:`) as an anchor. Mentioning the closing square bracket `]` outside the group makes it disappear from the output. The HTTP protocol can be either `HTTP/1.0` or `HTTP/1.1`, and the HTTP status is always a three digits number (`[0-9]{3}`).
 {EXERCISE END 01}
 
 {EXERCISE BEGIN 02}

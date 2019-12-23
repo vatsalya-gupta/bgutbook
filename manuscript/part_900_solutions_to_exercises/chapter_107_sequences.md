@@ -1,4 +1,4 @@
-# Day 7 - Sequences
+# Day 7 - Sequences and counting
 
 ## Solutions to exercises
 
@@ -23,6 +23,20 @@ $ seq -w 5 10000 | head -n 11
 ```
 
 [Go back to the exercise](#exercise_7_01)
+
+* * *
+
+{#solution_7_02}
+#### Exercise 7.02
+Count the number of lines of the file simple.log
+
+#### Solution
+``` sh
+$ cat simple.log | wc -l
+10000
+```
+
+[Go back to the exercise](#exercise_7_02)
 
 * * *
 

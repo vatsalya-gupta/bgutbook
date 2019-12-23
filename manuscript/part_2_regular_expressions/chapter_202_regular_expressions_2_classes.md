@@ -1,4 +1,4 @@
-# Day 12 - Regular expressions - Classes
+# Day 14 - Regular expressions - Classes
 
 {blurb, icon: quote-right}
 -- _I sat next to you in Mrs. Walsh's English class!_
@@ -42,35 +42,35 @@ Remember that a class, that is the whole block between square brackets, brackets
 ## Exercises
 
 
-{#exercise_12_07}
-#### Exercise 12.07
+{#exercise_14_07}
+#### Exercise 14.07
 Match any line of examples.txt containing a digit
 
-[Go to solution](#solution_12_07)
+[Go to solution](#solution_14_07)
 
-{#exercise_12_08}
-#### Exercise 12.08
+{#exercise_14_08}
+#### Exercise 14.08
 Match any line of examples.txt containing a lowercase "a" followed by any letter (that is "aa", "ab", "ac", and so on)
 
-[Go to solution](#solution_12_08)
+[Go to solution](#solution_14_08)
 
-{#exercise_12_09}
-#### Exercise 12.09
+{#exercise_14_09}
+#### Exercise 14.09
 Match any line of examples.txt containing an upper case letter followed by a digit
 
-[Go to solution](#solution_12_09)
+[Go to solution](#solution_14_09)
 
-{#exercise_12_10}
-#### Exercise 12.10
+{#exercise_14_10}
+#### Exercise 14.10
 Match any line of examples.txt containing a dash
 
-[Go to solution](#solution_12_10)
+[Go to solution](#solution_14_10)
 
-{#exercise_12_11}
-#### Exercise 12.11
+{#exercise_14_11}
+#### Exercise 14.11
 Match any line of examples.txt containing a left square bracket "["
 
-[Go to solution](#solution_12_11)
+[Go to solution](#solution_14_11)
 
 
 * * *

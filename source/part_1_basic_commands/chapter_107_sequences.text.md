@@ -1,4 +1,4 @@
-# Day 7 - Sequences
+# Day 7 - Sequences and counting
 
 {blurb, icon: quote-right}
 -- _A coding sequence cannot be revised once it's been established._
@@ -49,7 +49,28 @@ $ seq -w 1 10
 
 prepends one 0 to the numbers between 1 and 9 to get the same length of the last number, 10. This is called left zero-padding, in the elite circles of programmers, but I bet you can also call it zero left padding and everybody would understand. Now shout "Launch a zero left-padded sequence!" and tell me if you don't feel like one the mecha pilots of some Japanese anime. I honestly thing it's cool.
 
-TODO Bonus `wc`
+Another useful and simple thing we can learn today is counting elements. When it comes to lines, words, or characters, often you need to know how many of them are in a file or in the output of a command, and in those cases `wc` is your friend. Arguably, the name of the tool is not the best, but it stands for "word count" and after a while you will get used to it, and it will no more conjure up any idea of private spaces.
+
+Despite of the name, `wc` can count several different things, lines and characters being the most useful ones. Let's test the line count with `seq`, using the `-l` options that makes `wc` output only the number of lines
+
+``` sh
+$ seq 1 10 | wc -l
+10
+```
+
+The tool is very useful when we want to count the number of characters in a string
+
+``` sh
+$ echo "This is a test" | wc -c
+15
+```
+
+Wait a minute... 15? I count 14 characters there, including spaces. What's going on? Well, you know that `echo` adds a newline at the end of the string, right? That newline is a specific non-printable character, which makes `wc` add one to the length. We discussed the `-n` option of `echo` that prevents the newline, and using that you will get the correct length
+
+``` sh
+$ echo -n "This is a test" | wc -c
+14
+```
 
 * * *
 

@@ -45,6 +45,8 @@ Many Unix commands that work on files accept input from a pipe instead, and you 
 
 And now, welcome to the Operating Systems Philosophy class of professor Unix! I'm only half joking here, the so-called _Unix philosophy_ dictates that you should provide small programs that do a very specific things, and that do it at their best. You will then compose them with pipes and other operators to create more complex programs.
 
+**Caveat** You will notice that later in the book I always use the pattern `cat <file> | <command>`, even though the man page of many commands shows that you might as well run `<command> <file>` omitting the `cat` and the pipe. While I use both versions in my daily tasks, I preferred the first one in this book because it makes clearer what the `<command>` does, and it helps familiarising with pipes.
+
 * * *
 
 Enough for today! You will probably have nightmares about leaky pipes, philosophers and Pharaohs. I can only recommend a good book and a cup of tea. Just don't read anything related to ancient cultures!

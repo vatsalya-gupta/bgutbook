@@ -1,4 +1,4 @@
-# Day 13 - Regular expressions - Anchors
+# Day 15 - Regular expressions - Anchors
 
 {blurb, icon: quote-right}
 -- _Okay, here. Stop. Throw anchor._
@@ -65,7 +65,7 @@ If you try the last example without either the `^` or the `$` you will see that 
 
 ## Exercises
 
-{EXERCISES 13}
+{EXERCISES 15}
 
 * * *
 

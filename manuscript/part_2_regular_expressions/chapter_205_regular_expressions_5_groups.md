@@ -1,4 +1,4 @@
-# Day 15 - Regular expressions - Groups
+# Day 17 - Regular expressions - Groups
 
 {blurb, icon: quote-right}
 -- _They come in groups of threes.__
@@ -147,8 +147,8 @@ The regular expression matches an uppercase letter, followed by either a lowerca
 Exercises! Groups can be complex sometimes, so testing your knowledge can't but be beneficial. Remember that you can always write regular expressions in an incremental way, adding pieces and testing what they do (maybe adding the occasional `head` to avoid getting too many output lines)
 
 
-{#exercise_15_01}
-#### Exercise 15.01
+{#exercise_17_01}
+#### Exercise 17.01
 Extract all the lines of `simple.log` that contain an HTTP method `GET` or `POST`, rewrite each line in the form `<time> <HTTP status> <HTTP method>`. The result for the first 10 lines should be
 
 ``` txt
@@ -164,10 +164,10 @@ Extract all the lines of `simple.log` that contain an HTTP method `GET` or `POST
 10:05:50 200 GET
 ```
 
-[Go to solution](#solution_15_01)
+[Go to solution](#solution_17_01)
 
-{#exercise_15_02}
-#### Exercise 15.02
+{#exercise_17_02}
+#### Exercise 17.02
 The file `simple.log` contains lines with requests concerning files like
 
 ``` txt
@@ -176,10 +176,10 @@ The file `simple.log` contains lines with requests concerning files like
 
 Extract a list of all file extensions and count them. Assume that extensions are made of lowercase letters only.
 
-[Go to solution](#solution_15_02)
+[Go to solution](#solution_17_02)
 
-{#exercise_15_03}
-#### Exercise 15.03
+{#exercise_17_03}
+#### Exercise 17.03
 There are three lines in the file `simple.log` where a request received an HTTP 500 status code, for example
 
 ``` txt
@@ -188,7 +188,7 @@ There are three lines in the file `simple.log` where a request received an HTTP 
 
 Find them and print the IP addresses of each client in a single comma-separated line (i.e. `<IP number 1>,<IP number 2>,<IP number 3>`)
 
-[Go to solution](#solution_15_03)
+[Go to solution](#solution_17_03)
 
 
 * * *
