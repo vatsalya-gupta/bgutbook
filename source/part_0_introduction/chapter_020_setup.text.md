@@ -70,22 +70,22 @@ root@1d888c92ee76:/opt/bgutbook_files#
 
 ### Advanced solution
 
-If you want to have a Ubuntu container with the man pages you need to create a new Docker image. I provide a configuration for such a machine as a `Dockerfile` in the `bgutbook_docker` repository.
+If you want to have a Ubuntu container with the man pages you need to create a new Docker image. I provide a configuration for such a machine as a `Dockerfile` in the `bgutbook_ubuntu` repository.
 
 First of all clone the repository
 
 ``` sh
-$ git clone https://github.com/bgutbook/bgutbook_docker.git
+$ git clone https://github.com/bgutbook/bgutbook_ubuntu.git
 ```
 
 Then enter the directory and build the Docker image
 
 ``` sh
-$ cd bgutbook_docker
+$ cd bgutbook_ubuntu
 $ docker build -t bgutbook_ubuntu .
 ```
 
-Now Docker will create an image called `bgutbook_docker` and store it in your system. At this point you are ready to run it whenever you want to follow along the examples of the book.
+Now Docker will create an image called `bgutbook_ubuntu` and store it in your system. At this point you are ready to run it whenever you want to follow along the examples of the book.
 
 Exit the directory with the `Dockerfile`, clone the repository with the example files, enter that directory and run Docker. The commands are
 
