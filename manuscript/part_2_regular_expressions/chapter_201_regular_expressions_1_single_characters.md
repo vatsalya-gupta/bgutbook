@@ -61,9 +61,9 @@ $ grep -E "1\.1" examples.txt
 HTTP/1.1
 ```
 
-matches only those separated by a literal dot. Pay attention that the dot can be a punctuation mark, a decimal point, or have any other meaning. Regular expressions don't know anythign about the text that you are parsing, they just consider pure characters.
+matches only those separated by a literal dot. Pay attention that the dot can be a punctuation mark, a decimal point, or have any other meaning. Regular expressions don't know anything about the text that you are parsing, they just consider pure characters.
 
-THe other important tool that can use regular expressions is `sed`, that we already met twice in the previous chapters. To activate them in `sed` you need to use the `-r` option, and this makes the search pattern in an `s/` command a regular expression.
+The other important tool that can use regular expressions is `sed`, that we already met twice in the previous chapters. To activate them in `sed` you need to use the `-r` option, and this makes the search pattern in an `s/` command a regular expression.
 
 ``` sh
 $ head examples.txt | sed -r s,".g","--",g

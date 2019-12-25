@@ -39,7 +39,7 @@ Extract the time of each request as HH:MM:SS
 There are several ways to achieve this result. Two possible ones are
 
 ``` sh
-$ cat simple.log | cut -d ":" -f 2-4 | cut -d " " -f 1
+$ cat simple.log | cut -d ":" -f 2-4 | cut -d "]" -f 1
 10:05:03
 10:05:43
 10:05:47
@@ -49,13 +49,13 @@ $ cat simple.log | cut -d ":" -f 2-4 | cut -d " " -f 1
 and
 
 ``` sh
-$ cat simple.log | cut -d " " -f 2 | cut -d ":" -f 2-
+$ cat simple.log | cut -d "]" -f 1 | cut -d ":" -f 2-4
 10:05:03
 10:05:43
 10:05:47
 ```
 
-In the first one I first cut using the colon and then we remove the part separated by a space, while in the second one I do the opposite, first selecting the second column separated by spaces and then removing the first part separated by colon.
+In the first one I first cut using the colon and then we remove the part separated by a closing bracket, while in the second one I do the opposite, first selecting the first column separated by a closing bracket and then removing the first part separated by colon.
 
 [Go back to the exercise](#exercise_9_02)
 
